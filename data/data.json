@@ -1,0 +1,3612 @@
+[
+  {
+    "id": "Quadratic Formula",
+    "names": ["Quadratic Formula", "Midnight Formula", "abc Formula", "quadratic formula", "midnight formula", "abc formula"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}",
+        "variables": []
+      },
+      {
+        "formula": "x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}",
+        "variables": []
+      },
+      {
+        "formula": "ax^2 + bx + c = 0 \\Rightarrow x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}",
+        "variables": ["a", "b", "c", "x"]
+      },
+        {
+        "formula": "ax^2 + bx + c = 0 \\Rightarrow x_1 = \\frac{-b + \\sqrt{b^2-4ac}}{2a}, x_2 = \\frac{-b - \\sqrt{b^2-4ac}}{2a}",
+        "variables": ["a", "b", "c", "x"]
+      },
+      {
+        "formula": "a\\cdot x^2 + b\\cdot x + c = 0 \\Rightarrow x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4\\cdot a\\cdot c}}{2\\cdot a}",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "\\forall a,b,c\\in\\mathbb{R}: a\\neq 0 \\land a\\cdot x^2 + b\\cdot x + c = 0 \\Rightarrow x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4\\cdot a\\cdot c}}{2\\cdot a}",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "For all real $a, b, c$ with $a\\neq 0$, the solution for the equation $ax^2+bx+c=0$ is given by $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "The equation $ax^2+bx+c=0$, where $a$, $b$, and $c$ are real numbers and $a\\neq 0$, has solutions given by $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "If $a$, $b$, and $c$ are real numbers with $a\\neq 0$, then the equation $ax^2+bx+c=0$ can be solved using the formula $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "Let $a$, $b$, and $c$ be real numbers satisfying $a\\neq 0$. In this case, the equation $ax^2+bx+c=0$ has solutions given by $x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "Considering real numbers $a$, $b$, and $c$, where $a\\neq 0$, the equation $ax^2+bx+c=0$ can be solved using the formula $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "If $a$, $b$, and $c$ are real numbers and $a\\neq 0$, then the equation $ax^2+bx+c=0$ has solutions expressed as $x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$.",
+        "variables": ["x", "b", "a", "c"]
+      }
+    ],
+    "no-versions": [
+      "pq Formula",
+      {
+        "formula": "\\forall a,b,c\\in\\mathbb{R}: a\\cdot x^2 + b\\cdot x + c = 0 \\Rightarrow x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4\\cdot a\\cdot c}}{2\\cdot a}",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "formula": "ax^2 + bx + c = 0 \\Rightarrow x = \\frac{-b \\pm \\sqrt{b^2-5ac}}{2a}",
+        "variables": ["a", "b", "c", "x"]
+      },
+      {
+        "formula": "a\\cdot x^2 + b\\cdot x + c = 0 \\Rightarrow x_{1,2} = \\frac{ \\sqrt{b^2-4\\cdot a\\cdot c}}{2\\cdot a} \\pm b",
+        "variables": ["x", "b", "a", "c"]
+      },
+      {
+        "text_substitution": {"equation":  "inequality"}
+      }
+    ]
+  },
+  {
+    "id": "pq Formula",
+    "names": ["Quadratic Formula", "pq Formula", "Quadratic Equation Formula", "quadratic formula", "pq formula", "quadratic equation formula"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "x = -\\frac{p}{2} \\pm \\sqrt{(\\frac{p}{2})^2 - q}",
+        "variables": []
+      },
+      {
+        "formula": "x = -\\frac{p}{2} \\pm \\sqrt{(\\frac{p^2}{4}) - q}",
+        "variables": []
+      },
+      {
+        "formula": "x_{1,2} = -\\frac{p}{2} \\pm \\sqrt{p^2/4 - q}",
+        "variables": []
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x = -\\frac{p}{2} \\pm \\sqrt{(\\frac{p}{2})^2 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x_1 = -\\frac{p}{2} + \\sqrt{(\\frac{p}{2})^2 - q}, x_2 = -\\frac{p}{2} - \\sqrt{(\\frac{p}{2})^2 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x = -p/2 \\pm \\sqrt{(p/2)^2 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "\\forall p, q\\in\\mathbb{R}: x^2 + p\\cdot x + q = 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "\\forall p, q\\in\\mathbb{R}: x^2 + p\\cdot x + q = 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "For all real numbers $p, q$, the equation $x^2 + p\\cdot x + q = 0$ has the solutions $x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}$.",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "The equation $x^2 + p\\cdot x + q = 0$, where $p$ and $q$ are real numbers, has solutions given by $x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}$.",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "Let $p$ and $q$ be real numbers. In this case, the equation $x^2 + p\\cdot x + q = 0$ has solutions expressed as $x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}$.",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "Considering real numbers $p$ and $q$, the equation $x^2 + p\\cdot x + q = 0$ has solutions given by $x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}$.",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "If $p$ and $q$ are real numbers, then the equation $x^2 + p\\cdot x + q = 0$ can be solved using the formula $x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}$.",
+        "variables": ["x", "p", "q"]
+      }
+    ],
+    "no-versions": [
+      "Quadratic Formula",
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{p^2 - q}/4",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q = 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{q^2/4 - p}",
+        "variables": ["x", "p", "q"]
+      },
+      {
+        "formula": "x^2 + p\\cdot x + q > 0 \\Rightarrow x_{1,2} = -p/2 \\pm \\sqrt{p^2/4 - q}",
+        "variables": ["x", "p", "q"]
+      },
+      {"text_substitution": {"equality":  "inequality"}}
+    ]
+  },
+  {
+    "id": "Pythagorean Theorem",
+    "names": ["Pythagorean Theorem", "Pythagorean equation"],
+    "tag": "formula",
+    "text": "in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides",
+    "versions": [
+      {
+        "formula": "a^2 + b^2 = c^2",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "\\forall a,b,c\\in\\mathbb{R}: a^2 + b^2 = c^2",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "A right-angled triangle has side lengths $a$, $b$, and $c$, where $c$ is the length of the hypotenuse. Then $a^2 + b^2 = c^2$.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "Let $a$, $b$, and $c$ be the side lengths of a right-angled triangle, where $c$ denotes the length of the hypotenuse. In this case, the relationship $a^2 + b^2 = c^2$ is satisfied.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "In a right-angled triangle with side lengths $a$, $b$, and $c$, where $c$ represents the length of the hypotenuse, the equation $a^2 + b^2 = c^2$ holds true.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "A right-angled triangle has side lengths $a,b,c$ where $c$ is the length of the hypotenuse. Then $a^2 + b^2$ is equal to $c^2$.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "Considering a right-angled triangle with side lengths $a$, $b$, and $c$, where $c$ represents the length of the hypotenuse, we can state that $a^2 + b^2 = c^2$.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "If $a$, $b$, and $c$ are the side lengths of a right-angled triangle, with $c$ being the length of the hypotenuse, then the equation $a^2 + b^2 = c^2$ holds true.",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "For any right-angled triangle with side lengths $a$, $b$, and $c$, where $c$ represents the length of the hypotenuse, the relationship $a^2 + b^2 = c^2$ is satisfied.",
+        "variables": ["a", "b", "c"]
+      }
+    ],
+    "no-versions": [
+      "First Binomial Formula",
+      "Second Binomial Formula",
+      "Third Binomial Formula",
+      "Law of Cosines",
+      {"text_substitution": {"right-angled":  ""}, "triangle": ["fourangle", "circle", "polyhedra"]}
+    ]
+  },
+  {
+    "id": "First Binomial Formula",
+    "names": ["First Binomial Formula", "Binomial Formula", "first binomial formula", "binomial formula", "square of a binomial", "square of a sum"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "(a + b)^2 = a^2 + 2ab + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "\\forall a,b\\in\\mathbb{R}: (a + b)^2 = a^2 + 2ab + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a,b$ we have that $(a + b)^2 = a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a$ and $b$, the expression $(a + b)^2$ is equal to $a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Let $a$ and $b$ be real numbers. In this case, $(a + b)^2$ is equal to $a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Considering real numbers $a$ and $b$, we can state that $(a + b)^2$ is equal to $a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "If $a$ and $b$ are real numbers, then the equation $(a + b)^2$ is equivalent to $a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For any real numbers $a$ and $b$, the expression $(a + b)^2$ is equal to $a^2 + 2ab + b^2$.",
+        "variables": ["a", "b"]
+      }
+    ],
+    "text_substitution": {"real":  "complex", "\\mathbb{R}":  "\\mathbb{C}"},
+    "no-versions": [
+      "Second Binomial Formula",
+      "Third Binomial Formula",
+      "Pythagorean Theorem",
+      {
+        "formula": "(a + b)^2 = a^2 + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "text_substitution": {"equal":  "not equal", "equivalent":  "not equivalent"}
+      }
+    ]
+  },
+  {
+    "id": "Second Binomial Formula",
+    "names": ["Second Binomial Formula", "Binomial Formula", "second binomial formula", "binomial formula", "square of a binomial", "square of a difference"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "(a - b)^2 = a^2 - 2a\\cdot b + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "(a - b)^2 = a^2 - 2a\\cdot b + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a,b$ we have that $(a - b)^2 = a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a$ and $b$, the expression $(a - b)^2$ is equal to $a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Let $a$ and $b$ be real numbers. In this case, $(a - b)^2$ is equal to $a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Considering real numbers $a$ and $b$, we can state that $(a - b)^2$ is equal to $a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "If $a$ and $b$ are real numbers, then the equation $(a - b)^2$ is equivalent to $a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For any real numbers $a$ and $b$, the expression $(a - b)^2$ is equal to $a^2 - 2ab + b^2$.",
+        "variables": ["a", "b"]
+      }
+    ],
+    "text_substitution": {"real":  "complex", "\\mathbb{R}":  "\\mathbb{C}"},
+    "no-versions": [
+      "First Binomial Formula",
+      "Third Binomial Formula",
+      "Pythagorean Theorem",
+      {
+        "formula": "(a - b)^2 = a^2 + b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "(a - b)^2 = a^2 - b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "text_substitution": {"equal":  "not equal", "equivalent":  "not equivalent"}
+      }
+    ]
+  },
+  {
+    "id": "Third Binomial Formula",
+    "names": ["Third Binomial Formula", "Binomial Formula", "third binomial formula", "binomial formula", "difference of squares"],
+    "tag": "formula",
+    "text": "it represents the product of a sum and a difference, resulting in the squared terms being subtracted",
+    "versions": [
+      {
+        "formula": "(a + b)(a - b) = a^2 - b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "\\forall a,b\\in\\mathbb{R}: (a + b)(a - b) = a^2 - b^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a,b$ we have that $(a + b)(a - b) = a^2 - b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For all real numbers $a$ and $b$, the expression $(a + b)(a - b)$ is equal to $a^2 - b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Let $a$ and $b$ be real numbers. In this case, $(a + b)(a - b)$ is equal to $a^2 - b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "Considering real numbers $a$ and $b$, we can state that $(a + b)(a - b)$ is equal to $a^2 - b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "If $a$ and $b$ are real numbers, then the equation $(a + b)(a - b)$ is equivalent to $a^2 - b^2$.",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "For any real numbers $a$ and $b$, the expression $(a + b)(a - b)$ is equal to $a^2 - b^2$.",
+        "variables": ["a", "b"]
+      }
+    ],
+    "text_substitution": {"real":  "complex", "\\mathbb{R}":  "\\mathbb{C}"},
+    "no-versions": [
+      "First Binomial Formula",
+      "Second Binomial Formula",
+      "Pythagorean Theorem",
+      {
+        "formula": "\\forall a,b\\in\\mathbb{R}: (a + b)(a - b) = (a - b)^2",
+        "variables": ["a", "b"]
+      },
+      {
+        "text_substitution": {"equal":  "not equal", "equivalent":  "not equivalent"}
+      }
+    ]
+  },
+  {
+    "id": "Binomial Coefficient Formula",
+    "names": ["Binomial coefficient formula", "Binomial coefficient"],
+    "tag": "formula",
+    "text": "the number of ways to choose k items from a set of n distinct items",
+    "versions": [
+      {
+        "formula": "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "\\forall n,k\\in\\mathbb{N}, n\\ge k: \\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "For all natural numbers $n$ and $k$ with $n\\ge k$, we have that $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "For all natural numbers $n$ and $k$ with $n\\ge k$, the expression $\\binom{n}{k}$ can be calculated as $\\frac{n!}{k!(n-k)!}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "Let $n$ and $k$ be natural numbers such that $n\\ge k$. In this case, $\\binom{n}{k}$ is defined as $\\frac{n!}{k!(n-k)!}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "Considering natural numbers $n$ and $k$ with $n\\ge k$, we can state that $\\binom{n}{k}$ is equal to $\\frac{n!}{k!(n-k)!}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "If $n$ and $k$ are natural numbers satisfying $n\\ge k$, then the expression $\\binom{n}{k}$ can be computed as $\\frac{n!}{k!(n-k)!}$ where \"!\" is the factorial.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "For any natural numbers $n$ and $k$ with $n\\ge k$, the value of $\\binom{n}{k}$ is given by $\\frac{n!}{k!(n-k)!}$.",
+        "variables": ["n", "k"]
+      }
+    ],
+    "text_substitution": {"$n$ and $k$":  "$k$ and $n$"},
+    "no-versions": [
+      "Binomial Distribution",
+      "Binomial Series",
+      "Binomial Theorem",
+      "Pascal's Rule",
+      {
+        "formula": "\\forall n,k\\in\\mathbb{N}, k\\ge n: \\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+        "variables": ["n", "k"]
+      },
+      {"text_substitution": {"natural":  ["whole", "real", "complex"], "natural numbers": "integers"}}
+    ]
+  },
+  {
+    "id": "Pascal's Rule",
+    "names": ["Pascal's Rule", "Pascal's Identity", "Pascal's Formula", "Pascal's Theorem", "Binomial Coefficient Summation"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall n, k\\in \\mathbb{N}: \\binom{n+1}{k+1} = \\binom{n}{k+1} + \\binom{n}{k}",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "For all positive natural numbers $n$ and $k$, we have that $\\binom{n+1}{k+1} = \\binom{n}{k+1} + \\binom{n}{k}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "The relationship $\\binom{n+1}{k+1}$ is equal to the sum of $\\binom{n}{k+1}$ and $\\binom{n}{k}$, where $n$ and $k$ are positive natural numbers.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "For any pair of positive integers $n$ and $k$, it can be observed that $\\binom{n+1}{k+1}$ equals $\\binom{n}{k+1}$ plus $\\binom{n}{k}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "Given the conditions that $n$ and $k$ are positive natural numbers, we can deduce that $\\binom{n+1}{k+1}$ is equivalent to $\\binom{n}{k+1}$ added to $\\binom{n}{k}$.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "Given that $n$ and $k$ are positive natural numbers, the equality $\\binom{n+1}{k+1} = \\binom{n}{k+1} + \\binom{n}{k}$ is satisfied.",
+        "variables": ["n", "k"]
+      },
+      {
+        "formula": "The number of ways to select $k$ items from a set of $n$ items is equivalent to the sum of the number of ways to select $k−1$ items from a set of $n−1$ items, and the number of ways to select $k$ items from a set of $n−1$ items.",
+        "variables": ["n", "k"]
+      }
+    ],
+    "text_substitution": {"\\forall n, k\\in \\mathbb{N}: ":  ""},
+    "no-versions": [
+      "Binomial Distribution",
+      "Binomial Series",
+      "Binomial Theorem",
+      {"text_substitution": {"\\binom{n+1}{k+1}":  ["\\binom{n+1}{k}", "\\binom{n}{k+1}"], "\\binom{n}{k+1}": ["\\binom{n+1}{k}"], "\\binom{n}{k}": ["\\binom{n}{k+1}"]}, "positive": "negative", "\\mathbb{N}": ["\\mathbb{Z}", "\\mathbb{C}", "\\mathbb{Q}", "\\mathbb{R}"]}
+    ]
+  },
+  {
+    "id": "Binomial Theorem",
+    "names": ["Binomial Theorem"],
+    "tag": "formula",
+    "versions":[
+      {
+        "formula": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "\\forall a,b\\in\\mathbb{R} \\forall n\\in \\mathbb{N}: (a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "For all real numbers $a$ and $b$ and all natural numbers $n$, we have that $(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "For all real numbers $a$ and $b$, and for any natural number $n$, the expression $(a+b)^n$ can be expanded as $\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "Let $a$ and $b$ be real numbers, and let $n$ be a natural number. In this case, $(a+b)^n$ can be represented as the summation $\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "Considering real numbers $a$ and $b$, and any natural number $n$, the expression $(a+b)^n$ can be expanded using the summation notation $\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "If $a$ and $b$ are real numbers, and $n$ is a natural number, then the expression $(a+b)^n$ can be expanded as the sum $\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "For any real numbers $a$ and $b$, and for every natural number $n$, the expansion of $(a+b)^n$ can be written as $\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$.",
+        "variables": ["a", "b", "k", "n"]
+      }
+    ],
+    "text_substitution": {"$a$ and $b$":  "$b$ and $a$", "real":  "complex", "\\mathbb{R}":  "\\mathbb{C}"},
+    "no-versions": [
+      "Binomial Coefficient Formula",
+      "Binomial Series",
+      {
+        "formula": "(a+b)^k = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {
+        "formula": "(a+b)^n = \\sum_{k=0}^{n} \\binom{k}{n} a^{n-k} b^k",
+        "variables": ["a", "b", "k", "n"]
+      },
+      {"text_substitution": {"natural":  ["whole", "real", "complex"], "natural numbers": "integers", "\\mathbb{N}":  ["\\mathbb{Z}", "\\mathbb{R}"]}}
+    ]
+  },
+  {
+    "id": "Geometric Series",
+    "names": ["Geometric Series"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\sum_{k=0}^{n} r^k = \\frac{1-r^{n+1}}{1-r}",
+        "variables": ["k", "n", "r"]
+      },
+      {
+        "formula": "\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "\\lim_{k\\to\\infty}\\sum_{n=0}^{k} r^n = \\frac{1}{1-r}",
+        "variables": ["n", "r", "k"]
+      },
+      {
+        "formula": "|r|<1 \\Rightarrow \\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "\\forall r\\in \\mathbb{R}, |r|<1 \\Rightarrow \\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "For all real numbers $r$ with $|r|<1$ we have $\\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "For all real numbers $r$ satisfying $|r|<1$, the infinite series $\\sum_{n=0}^{\\infty} r^n$ converges to $\\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "Let $r$ be a real number such that $|r|<1$. In this case, the sum of the infinite series $\\sum_{n=0}^{\\infty} r^n$ is equal to $\\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "Considering real numbers $r$ with $|r|<1$, we can state that the sum of the infinite series $\\sum_{n=0}^{\\infty} r^n$ converges to $\\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "If $r$ is a real number satisfying $|r|<1$, then the infinite series $\\sum_{n=0}^{\\infty} r^n$ evaluates to $\\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "For any real number $r$ such that $|r|<1$, the infinite series $\\sum_{n=0}^{\\infty} r^n$ converges to the value $\\frac{1}{1-r}$.",
+        "variables": ["n", "r"]
+      }
+    ],
+    "text_substitution": {"real": "complex", "\\mathbb{R}":  ["\\mathbb{C}", "\\mathbb{R}"], "with $|r|<1$": "with an absolute value less than 1", "such that $|r|<1$":  "such that the absolute value of $r$ is less than 1"},
+    "no-versions": [
+      "Taylor Series",
+      {
+        "formula": "|r|>1 \\Rightarrow \\sum_{n=0}^{\\infty} r^n = \\frac{1}{1-r}",
+        "variables": ["n", "r"]
+      },
+      {
+        "formula": "\\sum_{n=0}^{\\infty} r^n = \\frac{1}{r-1}",
+        "variables": ["n", "r"]
+      },
+      {"text_substitution": {"$|r|<1$":  "$|r|>1$"}}
+    ]
+  },
+  {
+    "id": "Inverse of 2x2 Matrix",
+    "names": ["Inverse of a 2x2 Matrix"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\begin{pmatrix}a & b \\\\ c & e\\end{pmatrix}^{-1} = \\frac{1}{ae-bc} \\begin{pmatrix}e & -b \\\\ -c & a\\end{pmatrix}",
+        "variables": ["a", "b", "c", "e"]
+      },
+      {
+        "formula": "\\begin{pmatrix}a & b \\\\ c & e\\end{pmatrix}^{-1} = \\frac{1}{ae-bc} \\begin{pmatrix}e & -b \\\\ -c & a\\end{pmatrix}",
+        "variables": ["a", "b", "c", "e"]
+      },
+      {
+        "formula": "[[x, y], [z, w]]^{-1} = \\frac{1}{xw-yz} [[w, -y], [-z, x]]",
+        "variables": ["w", "x", "y", "z"]
+      },
+      {
+        "formula": "A=[[a, b], [c, d]] \\Rightarrow A^{-1} = \\frac{1}{ad-bc} [[d, -b], [-c, a]]",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "X=[[a, b], [c, d]] \\Rightarrow X^{-1} = \\frac{1}{det(X)} [[d, -b], [-c, a]]",
+        "variables": ["a", "b", "c", "d", "X"]
+      },
+      {
+        "formula": "Let $A=[[a, b], [c, d]]$ be a 2x2 Matrix. Then we have $A^{-1} = \\frac{1}{det(A)} [[d, -b], [-c, a]]$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "Consider a 2x2 matrix $A=[[a, b], [c, d]]$. In this case, the inverse of matrix $A$ is given by $A^{-1} = \\frac{1}{ad-bc} [[d, -b], [-c, a]]$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "The inverse of any real matrix $A=[[a, b], [c, d]]$ is given by $\\frac{1}{ad-bc} [[d, -b], [-c, a]]$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "If $A$ is a 2x2 matrix defined as $A=[[a, b], [c, d]]$, then the inverse of $A$ is defined as $A^{-1}=\\frac{1}{det(A)} [[d, -b], [-c, a]]$ where $det(A)$ denotes the determinant of $A$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      }
+    ],
+    "text_substitution": {"2x2 ": "", "ad-bc":  "det(A)"},
+    "no-versions": [
+      "Determinant of 2x2 Matrix",
+      "Multiplication of 2x2 Matrix",
+      {
+        "formula": "\\begin{pmatrix}a & b \\\\ c & e\\end{pmatrix}^{-1} = \\frac{1}{ae-bc} \\begin{pmatrix}e & -c \\\\ -b & a\\end{pmatrix}",
+        "variables": ["a", "b", "c", "e"]
+      },
+      {"text_substitution": {"2x2": "3x3"}}
+    ]
+  },
+  {
+    "id": "Determinant of 2x2 Matrix",
+    "names": ["Determinant of 2x2 Matrix"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "det([[a, b], [c, d]]) = ad - bc",
+        "variables": ["a", "b", "c", "d"]
+      },
+      {
+        "formula": "|\\begin{pmatrix}a & b \\\\ c & e\\end{pmatrix}| = a\\cdot e - b\\cdot c",
+        "variables": ["a", "b", "c", "e"]
+      },
+      {
+        "formula": "A=[[a, b], [c, d]] \\Rightarrow det(A) = ad - bc",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "If we have a 2x2 matrix $A=[[a, b], [c, d]]$, then $det(A) = ad - bc$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      },
+      {
+        "formula": "Let $A=[[a, b], [c, d]]$ be a 2x2 matrix, then the determinant $det(A)$ can be calculated as $det(A) = ad - bc$.",
+        "variables": ["a", "b", "c", "d", "A"]
+      }
+    ],
+    "text_substitution": {"A": "X", "2x2 ":  "", "$det(A)$ ":  ""},
+    "no-versions": [
+      "Inverse of 2x2 Matrix",
+      "Determinant of 3x3 Matrix",
+      {
+        "formula": "det([[a, b], [c, d]]) = ac - bd",
+        "variables": ["a", "b", "c", "d"]
+      },
+      {"text_substitution": {"det(A)":  "A^{-1}", "2x2":  "3x3"}}
+    ]
+  },
+  {
+    "id": "Multiplication of 2x2 Matrix",
+    "names": ["Multiplication of 2x2 Matrix"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "A = [[a,b],[c,d]], B = [[e, f], [g, h]] \\Rightarrow A*B = [[ae + bg, af+bh], [ce + dg, cf + dh]]",
+        "variables": ["A", "B", "a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "X = [[a,b],[c,d]], Y = [[e, f], [g, h]] \\Rightarrow X*Y = [[ae + bg, af+bh], [ce + dg, cf + dh]]",
+        "variables": ["A", "B", "a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "[[a,b],[c,d]] * [[e, f], [g, h]] = [[ae + bg, af+bh], [ce + dg, cf + dh]]",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "Given two 2x2 matrices $X = [[a,b],[c,d]]$ and $Y = [[e, f], [g, h]]$, their product is given by $X*Y = [[ae + bg, af+bh], [ce + dg, cf + dh]]$",
+        "variables": ["A", "B", "a", "b", "c", "d", "e", "f", "g", "h"]
+      }
+    ],
+    "text_substitution": {"2x2 ": "", "given by":  "defined as"},
+    "no-versions": [
+      "Determinant of 2x2 Matrix",
+      "Determinant of 3x3 Matrix",
+      "Inverse of 2x2 Matrix",
+      {
+        "formula": "[[a,b],[c,d]] * [[e, f], [g, h]] = [[af + bg, ae+bh], [ce + dg, cf + dh]]",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "[[a,b],[c,d]] * [[e, f], [g, h]] = [[ae + bg, af+bh], [ce + da, cf + dh]]",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "[[a,b],[c,d]] * [[e, f], [g, h]] = [[ae + bg, af+ch], [ce + dg, cf + dh]]",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {
+        "formula": "[[a,b],[c,d]] * [[e, f], [g, h]] = [[ae + bg, af+bh], [ce + dg, bf + dh]]",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h"]
+      },
+      {"text_substitution": {"product is given by $X*Y": "sum is given by $X+Y"}}
+    ]
+  },
+  {
+    "id": "Determinant of 3x3 Matrix",
+    "names": ["Determinant of 3x3 Matrix"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "det\\left([[a, b, c], [d, e, f], [g, h, j]]\\right) = a * \\det([[e, f], [h, j]]) - b * \\det([[d, f], [g, j]]) + c * \\det([[d, e], [g, h]])",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j"]
+      },
+      {
+        "formula": "det\\left([[a, b, c], [d, e, f], [g, h, j]]\\right) = a*e*j + b*f*g + c*d*h - g*e*c - h*f*a - j*d*b",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j"]
+      },
+      {
+        "formula": "det\\left([[a_1, b_1, c_1], [a_2, b_2, c_2], [a_3, b_3, c_3]]\\right) = a_1*b_2*c_3 + b_1*c_2*a_3 + c_1*a_2*b_3 - a_3*b_2*c_1 - b_3*c_2*a_1 - c_3*a_2*b_1",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "det\\left([[a_1, a_2, a_3], [b_1, b_2, b_3], [c_1, c_2, c_3]]\\right) = a_1*b_2*c_3 + a_2*b_3*c_1 + a_3*b_1*c_2 - c_1*b_2*a_3 - c_2*b_3*a_1 - c_3*b_1*a_2",
+        "variables": ["a", "b", "c"]
+      },
+      {
+        "formula": "A = [[a, b, c], [d, e, f], [g, h, j]] \\Rightarrow det(A) = a*(ej-fh) - b*(dj-fg) + c*(dh-eg)",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j", "A"]
+      },
+      {
+        "formula": "The determinant of a 3x3 matrix $A = [[a, b, c], [d, e, f], [g, h, j]]$ is given by $det(A) = a*(ej-fh) - b*(dj-fg) + c*(dh-eg)$.",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j", "A"]
+      },
+      {
+        "formula": "For any 3x3 matrix $A$ with elements $a, b, c, d, e, f, g, h, j$, given by $A = [[a, b, c], [d, e, f], [g, h, j]]$, we have $det(A) = a*(ej-fh) - b*(dj-fg) + c*(dh-eg)$.",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j", "A"]
+      }
+    ],
+    "text_substitution": {"A": "X"},
+    "no-versions": [
+      "Determinant of 2x2 Matrix",
+      {
+        "formula": "det\\left([[a, b, c], [d, e, f], [g, h, j]]\\right) = a*e*j + b*f*g + c*a*h - g*e*c - h*f*a - j*d*b",
+        "variables": ["a", "b", "c", "d", "e", "f", "g", "h", "j"]
+      },
+      {"text_substitution": {"2x2": "3x3"}}
+    ]
+  },
+  {
+    "id": "Logarithm Product Rule",
+    "names": ["Logarithm Product Rule"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\log_b(xy) = \\log_b(x) + \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "\\forall b\\in \\mathbb{R}, b>0, b\\neq 1, \\forall x,y>0: \\log_b(xy) = \\log_b(x) + \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real positive $b$ with $b\\neq 1$ and for all real positive $x,y$, we have $\\log_b(xy) = \\log_b(x) + \\log_b(y)$.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real positive $x$, $y$ and $b$ with $b\\neq 1$, the equality $\\log_b(xy) = \\log_b(x) + \\log_b(y)$ holds true.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real bases $b$ such that $b>0$ and $b\\neq 1$ and for all real positive $x,y$, the equality $\\log_b(xy) = \\log_b(x) + \\log_b(y)$ holds.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "\\ln(xy) = \\ln(x) + \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "\\forall x,y>0: \\ln(xy) = \\ln(x) + \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "For all real positive $x,y$, the equality $\\ln(xy) = \\ln(x) + \\ln(y)$ holds.",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "For all real $x,y$ with $x>0$ and $y>0$, we can state that $\\ln(xy) = \\ln(x) + \\ln(y)$.",
+        "variables": ["x", "y"]
+      }
+    ],
+    "no-versions": [
+      "Logarithm Quotient Rule",
+      "Logarithm Power Rule",
+      {
+        "formula": "\\ln(x+y) = \\ln(x) \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "\\ln(xy) = \\ln(x) * \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "\\log_b(x+y) = \\log_b(x) \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "\\log_b(xy) = \\log_b(x) * \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {"text_substitution": {"true": "false", "holds": "holds not", "positive": "negative"}}
+    ]
+  },
+  {
+    "id": "Logarithm Quotient Rule",
+    "names": ["Logarithm Quotient Rule"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\log_b(x/y) = \\log_b(x) - \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "\\forall b\\in \\mathbb{R}, b>0, b\\neq 1, \\forall x,y>0: \\log_b(x/y) = \\log_b(x) - \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real positive $b$ with $b\\neq 1$ and for all real positive $x,y$, we have $\\log_b(x/y) = \\log_b(x) - \\log_b(y)$.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real positive $x$, $y$ and $b$ with $b\\neq 1$, the equality $\\log_b(x/y) = \\log_b(x) - \\log_b(y)$ holds true.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "For all real bases $b$ such that $b>0$ and $b\\neq 1$ and for all real positive $x,y$, the equality $\\log_b(x/y) = \\log_b(x) - \\log_b(y)$ holds.",
+        "variables": ["x", "y", "b"]
+      },
+      {
+        "formula": "\\ln(x/y) = \\ln(x) - \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "\\forall x,y>0: \\ln(x/y) = \\ln(x) - \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "For all real positive $x,y$, the equality $\\ln(x/y) = \\ln(x) - \\ln(y)$ holds.",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "For all real $x,y$ with $x>0$ and $y>0$, we can state that $\\ln(x/y) = \\ln(x) - \\ln(y)$.",
+        "variables": ["x", "y"]
+      }
+    ],
+    "no-versions": [
+      "Logarithm Power Rule",
+      "Logarithm Product Rule",
+      {
+        "formula": "\\ln(x/y) = \\ln(x) / \\ln(y)",
+        "variables": ["x", "y"]
+      },
+      {
+        "formula": "\\log_b(x/y) = \\log_b(x) / \\log_b(y)",
+        "variables": ["x", "y", "b"]
+      },
+      {"text_substitution": {"true": "false", "holds": "holds not", "positive": "negative"}}
+    ]
+  },
+  {
+    "id": "Logarithm Power Rule",
+    "names": ["Logarithm Power Rule"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\log_b(x^r) = r \\cdot \\log_b(x)",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "\\forall b\\in \\mathbb{R}, b>0, b\\neq 1, \\forall x,r\\in\\mathbb{R}, x>0: \\log_b(x^r) = r \\cdot \\log_b(x)",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "For all real positive numbers $b$ with $b\\neq 1$ and for all real numbers $x>0$ and $r$, we have $\\log_b(x^r) = r \\cdot \\log_b(x)$.",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "For all real positive numbers $b$ where $b \\neq 1$, and for any real numbers $x>0$ and $r$, the equation $\\log_b(x^r) = r \\cdot \\log_b(x)$ holds true.",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "If we have a real positive number $b$ (excluding $b = 1$), and real numbers $x > 0$ and $r$, then $\\log_b(x^r)$ is equal to $r \\cdot \\log_b(x)$.",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "\\log_b(x^n) = n \\cdot \\log_b(x)",
+        "variables": ["x", "n", "b"]
+      },
+      {
+        "formula": "\\ln(x^n) = n \\cdot \\ln(x)",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For any real numbers $b>0$ where $b \\neq 1$, and for all real numbers $x > 0$ and $r$, the equality $\\ln(x^n) = n \\cdot \\ln(x)$ holds.",
+        "variables": ["x", "r", "b"]
+      }
+    ],
+    "text_substitution": {"$x>0$ and $r$": "$r$ and positive $x$"},
+    "no-versions": [
+      "Logarithm Product Rule",
+      "Logarithm Quotient Rule",
+      {
+        "formula": "\\log_b(x^r) =  \\log_b(r \\cdot x)",
+        "variables": ["x", "r", "b"]
+      },
+      {
+        "formula": "\\log_b(x^r) =  \\log_r(b \\cdot x)",
+        "variables": ["x", "r", "b"]
+      },
+      {"text_substitution": {"true": "false", "holds": "holds not", "positive": "negative"}}
+    ]
+  },
+  {
+    "id": "Factorial",
+    "names": ["Factorial", "Definition of a factorial"],
+    "tag": "definition",
+    "versions": [
+      {
+        "formula": "n! = 1 \\cdot 2 \\cdot \\dots \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! = 1 \\cdot 2 \\cdot 3 \\cdot \\dots \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot \\dots \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot \\dots \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! = \\prod_{i=1}^n i",
+        "variables": ["n", "i"]
+      },
+      {
+        "formula": "\\forall n\\in \\mathbb{N}: (n+1)! = (n+1)*n!, 0! = 1",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\ge 1: n! = n*(n-1)!, 0! = 1",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\in\\mathbb{N}: n! = \\prod_{i=1}^n i",
+        "variables": ["n", "i"]
+      },
+      {
+        "formula": "For any natural number $n$ we can calculate $n!$ by multiplying all natural numbers between $1$ and $n$ together.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For any natural number $n$, $n!$ can be obtained by multiplying all natural numbers from $1$ to $n$ together.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "Let $n$ be a natural number. In this case, $n!$ can be computed by multiplying all natural numbers between $1$ and $n$ inclusive.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For any natural number $n$ we have $n! = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot \\dots \\cdot n$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For any natural number $n$ we have that $n!$ is defined as $n! := \\prod_{i=1}^n i$.",
+        "variables": ["n", "i"]
+      }
+    ],
+    "no-versions": [
+      "Binomial Coefficient Formula",
+      {
+        "formula": "n! = 1 \\cdot 3 \\cdot 5 \\cdot \\dots \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\in \\mathbb{N}: (n+1)! = (n-1)*n!, 0! = 1",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\in \\mathbb{N}: (n+1)! = (n-1)!*n, 0! = 1",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\ge 1: n! = n*(n+1)!, 0! = 1",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\forall n\\ge 1: n! = (n+1)*n!, 0! = 1",
+        "variables": ["n"]
+      },
+      {"text_substitution": {"!": "", "\\prod": "\\sum", "0! = 1": "0! = 0", "\\mathbb{N}": ["\\mathbb{Z}", "\\mathbb{R}", "\\mathbb{C}"]}}
+    ]
+  },
+  {
+    "id": "Gaussian Integral",
+    "names": ["Gaussian Integral", "Euler-Poisson Integral"],
+    "tag": "formula",
+    "text": "the integral of the exponential function of a negative quadratic expression over the entire real line is equal to the square root of π.",
+    "versions": [
+      {
+        "formula": "\\int_{-\\infty}^\\infty exp(-x^2) dx = \\sqrt{\\pi}",
+        "variables": ["x"]
+      },
+      {
+        "formula": "(\\int_{-\\infty}^\\infty exp(-x^2) dx)^2 = \\pi",
+        "variables": ["x"]
+      },
+      {
+        "formula": "The integral of $exp(-x^2)$ over the entire real line (from $-\\infty$ to $\\infty$) is equal to the square root of $\\pi$.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "If we calculate the integral of $e^{-x^2}$ over the entire real line, from $-\\infty$ to $\\infty$, we obtain the square root of $\\pi$.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "The squared integral of $e^{-x^2}$ over the entire real line, from $-\\infty$ to $\\infty$, equals $\\pi$.",
+        "variables": ["x"]
+      }
+    ],
+    "text_substitution": {"the square root of $\\pi$": "$\\sqrt{\\pi}$", "(from $-\\infty$ to $\\infty$)": ["", ",i.e. ($-\\infty$, $\\infty$),"]},
+    "no-versions": [
+      {
+        "formula": "\\int_{\\infty}^{-\\infty} exp(-x^2) dx = \\sqrt{\\pi}",
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int_{\\infty}^{-\\infty} exp(-x^2) dx = \\pi^2",
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int_{\\infty}^{-\\infty} exp(-x^2) dx = \\pi",
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int_{\\infty}^{-\\infty} exp((-x)^2) dx = \\pi",
+        "variables": ["x"]
+      },
+      {"text_substitution": {"\\pi": "\\sqrt{\\pi}"}}
+    ]
+  },
+  {
+    "id": "Eulers Identity",
+    "names": ["Eulers Formula", "Eulers Identiy", "Eulers Formula for complex analysis"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "exp(\\mathrm{i}\\pi) + 1 = 0",
+        "variables": []
+      },
+      {
+        "formula": "e^{\\mathrm{i}\\pi} = -1",
+        "variables": []
+      },
+      {
+        "formula": "This equation relates five fundamental mathematical constants ($e, \\pi, \\mathrm{i}, 0$, and $1$) in a remarkably concise expression: $e^{\\mathrm{i}\\pi} + 1 = 0$."
+      },
+      {
+        "formula": "This equation relates five fundamental constants ($0, 1, \\pi, e$, and $\\mathrm{i}$) through exponentiation and addition in a single compact expression: $e^{\\pi \\mathrm{i}} + 1 = 0$."
+      },
+      {
+        "formula": "the exponential function raised to the power of the imaginary unit $\\mathrm{i}$ multiplied by $\\pi$ gives the result of -1."
+      }
+    ],
+    "no-versions": [
+      "Eulers Formula",
+      {
+        "formula": "e^{\\pi} = -1",
+        "variables": []
+      },
+      {
+        "formula": "e^{\\pi}i = -1",
+        "variables": []
+      },
+      {
+        "formula": "e^{\\pi} = -i",
+        "variables": []
+      },
+      {
+        "formula": "exp(\\mathrm{i}\\pi) = 0",
+        "variables": []
+      },
+      {
+        "formula": "\\pi^{\\mathrm{i}*e} = -1",
+        "variables": []
+      }
+    ]
+  },
+    {
+    "id": "Eulers Formula",
+    "names": ["Eulers Formula", "Eulers Identiy", "Eulers Complex Exponential Identity"],
+    "tag": "formula",
+    "text": "e raised to the power of the imaginary unit i multiplied by an angle θ is equal to the sum of cos(θ) and i times sin(θ)",
+
+    "versions": [
+      {
+        "formula": "e^{\\mathrm{i}\\alpha} = \\cos{\\alpha} + \\mathrm{i}\\sin{\\alpha}",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "\\forall\\alpha\\in \\mathbb{C}: e^{\\mathrm{i}\\alpha} = \\cos{\\alpha} + \\mathrm{i}\\sin{\\alpha}",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{C}: e^{\\mathrm{i} x} = \\cos{x} + \\mathrm{i}\\sin{x}",
+        "variables": ["x"]
+      },
+      {
+        "formula": "For all complex numbers $x$, we have $e^{\\mathrm{i} x} = \\cos{x} + \\mathrm{i}\\sin{x}$.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "For all complex numbers $x$, the exponential function $e^{\\mathrm{i}x}$ can be expressed as $\\cos(x) + \\mathrm{i}\\sin(x)$.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "Let $x$ be a complex number. In this case, the equation $e^{\\mathrm{i}x} = \\cos(x) + \\mathrm{i}\\sin(x)$ holds true.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "Considering any complex number $x$, we can state that $e^{\\mathrm{i}x} = \\cos(x) + \\mathrm{i}\\sin(x)$.",
+        "variables": ["x"]
+      },
+      {
+        "formula": "If we have a complex number $x$, the expression $e^{\\mathrm{i}x}$ can be represented as $\\cos(x) + \\mathrm{i}\\sin(x)$.",
+        "variables": ["x"]
+      }
+    ],
+    "no-versions": [
+      "Pythagorean Identity",
+      "Law of Sines",
+      {
+        "formula": "e^{\\mathrm{i}\\alpha} = \\mathrm{i}\\cos{\\alpha} + \\sin{\\alpha}",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "e^{\\mathrm{i}\\alpha} = \\sin{\\alpha} + \\mathrm{i}\\sin{\\alpha}",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "e^{\\mathrm{i}\\alpha} = \\cos{\\alpha} + \\mathrm{i}\\cos{\\alpha}",
+        "variables": ["\\alpha"]
+      },
+      {"text_substitution": {"true": "false", "holds": "holds not"}}
+    ]
+  },
+  {
+    "id": "Eulers Formula for polyhedra",
+    "names": ["Eulers Formula for polyhedra", "Euler's formula for polyhedra", "Eulers formula for planar graphs", "Eulers Polyhedral Formula"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "V - E + F = 2",
+        "variables": []
+      },
+      {
+        "formula": "V + F = 2 + E",
+        "variables": []
+      },
+      {
+        "formula": "Let $V$ represents the number of vertices, $E$ the number of edges and $F$ the number of faces of a polyhedron. Then $V - E + F = 2$.",
+        "variables": ["V", "F", "E"]
+      },
+      {
+        "formula": "If we consider a polyhedron with number of vertices $V$, edges $E$, and faces $F$, then the relationship $V - E + F = 2$ holds.",
+        "variables": ["V", "F", "E"]
+      },
+      {
+        "formula": "Let $V$, $E$, and $F$ denote the number of vertices, edges and faces, respectively, of a polyhedron. In this case, the equation $V - E + F = 2$ is satisfied.",
+        "variables": ["V", "F", "E"]
+      },
+      {
+        "formula": "For any planar graph with number of vertices $V$, edges $E$, and faces $F$, the equality $V - E + F = 2$ holds.",
+        "variables": ["V", "F", "E"]
+      }
+    ],
+    "no-versions": [
+      {
+        "formula": "V - E + F = 3",
+        "variables": []
+      },
+      {
+        "formula": "V + F = E",
+        "variables": []
+      },
+      {"text_substitution": {"vertices, edges and faces": "edges, vertices and faces", "$V$, edges $E$": "$E$, edges $V$"}}
+    ]
+  },
+  {
+    "id": "Fundamental Theorem of Calculus",
+    "names": ["Fundamental Theorem of Calculus", "Integral of a Function"],
+    "tag": "formula",
+    "text": "differentiation and integration are inverse operations, and that the definite integral of a function can be evaluated by finding an antiderivative and evaluating it at the upper and lower limits of integration",
+    "versions": [
+      {
+        "formula": "\\int_a^b f(x) dx = F(b) - F(a)",
+        "variables": ["a", "b", "x"],
+        "functions": ["f", "F"]
+      },
+      {
+      "formula":"\\frac{d}{dx}\\int_a^x f(t)dt=f(x)",
+      "variables":["x","t"],
+      "functions":["f"]
+      },
+      {
+        "formula": "The integral of a integrable function $\\int_a^b f(x) dx$ over an interval $[a, b]$ is equal to the difference of the antiderivative $F(b) - F(a)$.",
+        "variables": ["a", "b", "x"],
+        "functions": ["f", "F"]
+      },
+      {
+        "formula": "For any integrable function $f(x)$ and any real interval $[a, b]$ the integral over this interval $\\int_a^b f(x) dx$ is equal to $F(b) - F(a)$.",
+        "variables": ["a", "b", "x"],
+        "functions": ["f", "F"]
+      },
+      {
+        "formula": "For any integrable function $f(x)$ defined on a real interval $[a, b]$, the integral of $f(x)$ over the interval $[a, b]$, denoted as $\\int_a^b f(x) dx$, is equal to $F(b) - F(a)$, where $F(x)$ is the antiderivative of $f(x)$.",
+        "variables": ["a", "b", "x"],
+        "functions": ["f", "F"]
+      },
+      {
+        "formula": "For every integrable function $f(x)$ and any real interval $[a, b]$, the integral of $f(x)$ over the interval $[a, b]$, denoted as $\\int_a^b f(x) dx$, is given by $F(b) - F(a)$, where $F(x)$ is an antiderivative of $f(x)$.",
+        "variables": ["a", "b", "x"],
+        "functions": ["f", "F"]
+      }
+    ],
+    "text_substitution": {"[a, b]]": ["(a, b)", "(a, b]", "[a, b)"]},
+    "no-versions": [
+      "Integration by Parts",
+      {
+        "formula": "\\int_a^b f(x) dx = F(x)",
+        "variables": ["a", "b"],
+        "functions": ["f", "F"]
+      },
+      {
+        "formula": "\\int_a^b f(x) dx = F(a) - F(b)",
+        "variables": ["a", "b"],
+        "functions": ["f", "F"]
+      },
+      {
+      "formula":"\\frac{d}{dx}\\int_a^t f(x)dt=f(x)",
+      "variables":["x","t"],
+      "functions":["f"]
+      }
+    ]
+  },
+  {
+    "id": "Chain Rule",
+    "names": ["Chain Rule", "chain rule of differentiation"],
+    "tag": "formula",
+    "text": "the chain rule tells us that to find the derivative of a composite function, we first take the derivative of the outer function with respect to the inner function, and then multiply it by the derivative of the inner function with respect to x",
+    "versions": [
+      {
+        "formula": "\\frac{d}{dx} [f(g(x))] = f'(g(x)) \\cdot g'(x)",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "Let $f(g(x))$ be a composite function. In this case, the derivative of $f(g(x))$ is given by $f'(g(x)) \\cdot g'(x)$, where $f'(g(x))$ represents the derivative of the outer function with respect to its argument and $g'(x)$ is the derivative of the inner function.",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "The derivative of a composite function $f(g(x))$ with respect to $x$ is given by $f'(g(x)) \\cdot g'(x)$.",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "If we have a composite function $f(g(x))$, where $f(x)$ and $g(x)$ are differentiable functions, then the derivative of $f(g(x))$ with respect to $x$ is equal to $f'(g(x)) \\cdot g'(x)$.",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      }
+    ],
+    "no-versions": [
+      "Product Rule",
+      "Quotient Rule",
+      "Power Rule",
+      "Derivative of Inverse Function",
+      {
+        "formula": "\\frac{d}{dx} [f(g(x))] = g'(f(x)) \\cdot g'(x)",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "\\frac{d}{dx} [f(g(x))] = f'(g(x)) \\cdot f'(x)",
+        "variables": ["x"],
+        "functions": ["f", "g"]
+      },
+      {"text_substitution": {"respect to $x$": "respect to $g(x)$"}}
+    ]
+  },
+  {
+    "id": "Product Rule",
+    "names": ["Product Rule", "product rule of differentiation"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{d}{dx} [u(x) \\cdot v(x)] = u'(x) \\cdot v(x) + u(x) \\cdot v'(x)",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "The derivative of the product of two functions, $u$ and $v$, $\\frac{d}{dx} [u(x) \\cdot v(x)]$ is equal to $u'(x) \\cdot v(x) + u(x) \\cdot v'(x)$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "The derivative of the product of two functions, $u$ and $v$, with respect to $x$, denoted as $\\frac{d}{dx} [u(x) \\cdot v(x)]$, is given by the expression $u'(x) \\cdot v(x) + u(x) \\cdot v'(x)$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "Let $u(x)$ and $v(x)$ be differentiable functions. In this case, the derivative of their product, $\\frac{d}{dx} [u(x) \\cdot v(x)]$, can be obtained as $u'(x) \\cdot v(x) + u(x) \\cdot v'(x)$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "Considering the product of two differentiable functions, $u(x)$ and $v(x)$, the derivative of $u(x) \\cdot v(x)$ with respect to $x$ is equal to $u'(x) \\cdot v(x) + u(x) \\cdot v'(x)$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "If we have the product of two differentiable functions, $u(x)$ and $v(x)$, then the derivative of their product, $\\frac{d}{dx} [u(x) \\cdot v(x)]$, is given by $u'(x) \\cdot v(x) + u(x) \\cdot v'(x)$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "[uv]' = u'v + uv'",
+        "functions": ["u", "v"]
+      }
+    ],
+    "no-versions": [
+      "Chain Rule",
+      "Quotient Rule",
+      "Power Rule",
+      "Derivative of Inverse Function",
+      {
+        "formula": "[uv]' = u'v + u'v",
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "[uv]' = u'v' + uv",
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} [u(x) \\cdot v(x)] = u'(x) \\cdot v'(x) + u(x) \\cdot v(x)",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} [u(x) \\cdot v(x)] = u'(x) \\cdot v(x) + u'(x) \\cdot v(x)",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {"text_substitution": {"\\cdot": "+"}}
+    ]
+  },
+  {
+    "id": "Quotient Rule",
+    "names": ["Quotient Rule", "Derivative Quotient Rule"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{d}{dx} u(x)/v(x) = \\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "The derivative of the quotient of two functions, $u$ and $v$, $\\frac{d}{dx} [u(x) / v(x)]$ is equal to $\\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "The derivative of the product of two functions, $u$ and $v$, with respect to $x$, denoted as $\\frac{d}{dx} [u(x)/ v(x)]$, is given by the expression $\\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "Let $u(x)$ and $v(x)$ be differentiable functions. In this case, the derivative of their product, $\\frac{d}{dx} [u(x) / v(x)]$, can be obtained as $\\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "Considering the product of two differentiable functions, $u(x)$ and $v(x)$, the derivative of $u(x) / v(x)$ with respect to $x$ is equal to $\\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "If we have the product of two differentiable functions, $u(x)$ and $v(x)$, then the derivative of their product, $\\frac{d}{dx} [u(x) / v(x)]$, is given by $\\frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$.",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} u/v = \\frac{u'v - uv'}{v^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      }
+    ],
+    "no-versions": [
+      "Chain Rule",
+      "Product Rule",
+      "Power Rule",
+      "Derivative of Inverse Function",
+      {
+        "formula": "\\frac{d}{dx} u/v = \\frac{u'v - uv'}{u^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} u/v = \\frac{uv' - u'v}{v^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} u(x)/v(x) = \\frac{u'(x)v(x) + u(x)v'(x)}{v(x)^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} u(x)/v(x) = \\frac{u(x)v'(x) + u'(x)v(x)}{v(x)^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {
+        "formula": "\\frac{d}{dx} u(x)/v(x) = \\frac{u'(x)v(x) + u(x)v'(x)}{u(x)^2}",
+        "variables": ["x"],
+        "functions": ["u", "v"]
+      },
+      {"text_substitution": {"/": ["-", "*", "+"]}}
+    ]
+  },
+  {
+    "id": "Power Rule",
+    "names": ["Power Rule", "power rule of differentiation"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{d}{dx}(x^n) = nx^{n-1}",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "\\forall n\\in\\mathbb{R}, n\\neq 0: \\frac{d}{dx}(x^n) = nx^{n-1}",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For all real $n\\neq 0$, we have $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For all real numbers $n$ (excluding $n = 0$), the derivative of $x^n$ with respect to $x$ is given by $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "Let $n$ be a real number (where $n \\neq 0$). In this case, the derivative of $x^n$ with respect to $x$ can be expressed as $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "Considering any real number $n$ (excluding $n = 0$), the derivative of the function $x^n$ with respect to $x$ is equal to $nx^{n-1}$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "If we have a real number $n$ (excluding $n = 0$), then the derivative of the function $x^n$ with respect to $x$ can be calculated as $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For every real number $n$ (excluding $n = 0$), the derivative of the function $x^n$ with respect to $x$ is given by $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+        "variables": ["x", "n"]
+      }
+    ],
+    "no-versions": [
+      "Chain Rule",
+      "Product Rule",
+      "Quotient Rule",
+      "Derivative of Inverse Function",
+      {
+        "formula": "\\frac{d}{dx}(x^n) = (n-1)x^{n}",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "\\frac{d}{dx}(x^n) = xn^{n-1}",
+        "variables": ["x", "n"]
+      },
+            {
+        "formula": "\\frac{d}{dn}(x^n) = nx^{n-1}",
+        "variables": ["x", "n"]
+      },
+      {"text_substitution": {"(excluding $n = 0$)": "", "respect to $x$": "respect to $n$"}}
+    ]
+  },
+  {
+    "id": "Derivative of a Function",
+    "names": ["Derivative of a Function", "Differentiation definition"],
+    "tag": "definition",
+    "text": "the derivative describes the rate of change of a function at a given point",
+    "versions":[
+      {
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "By definition, $f'(x)$ is equal to $\\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}$.",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "By definition, $f'(x)$ is equal to the limit as $h$ approaches $0$ of $\\frac{f(x+h) - f(x)}{h}$.",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "We define $\\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}$ to be equal to the derivative, written $f'(x)$.",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "We write $f'(x)$ for the limit of $\\frac{f(x+h) - f(x)}{h}$ as $h$ approaches $0$.",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      }
+    ],
+    "no-versions": [
+      "Rule de l'Hopital",
+      {
+        "formula": "f'(x) = \\lim_{h \\to \\infty} \\frac{f(x+h)-f(x)}{h}",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "f'(x) = \\lim_{h \\to 1} \\frac{f(x+h)-f(x)}{h}",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "f(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x-h)-f(x)}{h}",
+        "variables": ["x", "h"],
+        "functions": ["f"]
+      }
+    ]
+  },
+  {
+    "id": "Derivative of Inverse Function",
+    "names": ["Derivative of Inverse Function"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{d}{dx} \\left[f^{-1}(x)\\right] = \\frac{1}{f'(f^{-1}(x))}",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "The derivative of the inverse of a function $f(x)$, is given by $\\frac{1}{f'(f^{-1}(x))}$",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "Let $f(x)$ be a function and $f^{-1}(x)$ its inverse function. The derivative of $f^{-1}(x)$ can be expressed as $\\frac{1}{f'(f^{-1}(x))}$.",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "The derivative of $\\left[f^{-1}(x)\\right]$ with respect to $x$ is equal to $\\frac{1}{f'(f^{-1}(x))}$",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "For a function $f$ and its inverse $f^{-1}(x)$, the equation $\\frac{d}{dx} \\left[f^{-1}(x)\\right] = \\frac{1}{f'(f^{-1}(x))}$ holds true.",
+        "variables": ["x"],
+        "functions": ["f"]
+      }
+    ],
+    "no-versions": [
+      "Chain Rule",
+      "Product Rule",
+      "Quotient Rule",
+      "Derivative of Inverse Function",
+      {
+        "formula": "\\frac{d}{dx} [f^{-1}(x)] = \\frac{1}{f(f^{-1}(x))}",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "\\frac{d}{dx} [f(x^{-1})] = \\frac{1}{f'(f^{-1}(x))}",
+        "variables": ["x"],
+        "functions": ["f"]
+      },
+      {"text_substitution": {"f^{-1}": "f^{1}", "respect to $x$": "respect to $f$"}}
+    ]
+  },
+  {
+    "id": "Integration by Parts",
+    "names": ["Integration by Parts", "partial integration"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\int f(x) g'(x) dx = f(x) g(x) - \\int g(x)f'(x) dx",
+        "functions": ["f", "g"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "Let $f(x)$ and $g(x)$ be two functions. The integral of $f(x)*g'(x)$ can be calculated by using $\\int f(x) g'(x) dx = f(x) g(x) - \\int g(x)f'(x) dx$ where $f'(x)$ and $g'(x)$ are the derivatives of $f(x)$ and $g(x)$, respectively.",
+        "functions": ["f", "g"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int f(x) g(x) dx = f(x) G(x) - \\int G(x)f'(x) dx",
+        "functions": ["f", "g", "G"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "Let $f(x)$ and $g(x)$ be two functions. The integral of $f(x)*g(x)$ can be calculated by using $\\int f(x) g(x) dx = f(x) G(x) - \\int G(x)f'(x) dx$, where $G(x)$ denotes the antiderivative of $g(x)$ and $f'(x)$ denotes the derivative of $f(x)$.",
+        "functions": ["f", "g", "G"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "For any pair of functions $f(x)$ and $g(x)$, the integral of their product, $\\int f(x) g(x) dx$, can be determined using the formula $\\int f(x) g(x) dx = f(x) G(x) - \\int G(x) f'(x) dx$, where $G(x)$ represents the antiderivative of $g(x)$ and $f'(x)$ represents the derivative of $f(x)$.",
+        "functions": ["f", "g", "G"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int_a^b f(x) g'(x) dx = f(b)g(b) - f(a)g(a) - \\int_a^b f'(x)g(x) dx",
+        "variables": ["x", "a", "b", "x"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "\\int u dv = uv - \\int v du",
+        "variables": ["u", "v"]
+      }
+    ],
+    "no-versions": [
+      {
+        "formula": "\\int f(x) g'(x) dx = f(x) g'(x) - \\int g(x)f'(x) dx",
+        "functions": ["f", "g"],
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\int f(x) g(x) dx = f(x) G(x) - \\int g(x)f'(x) dx",
+        "functions": ["f", "g", "G"],
+        "variables": ["x"]
+      },
+      {"text_substitution": {"\\int f(x) g'(x) dx": "\\int f(x) g(x) dx", "f(x) G(x)": "f(x) g(x)", "of $f(x) and $g(x)$": "of $g(x)$ and $f(x)$"}}
+    ]
+  },
+  {
+    "id": "Pythagorean Identity",
+    "names": ["Pythagorean Identity", "Pythagorean theorem of trigonometry", "Pythagorean trigonometric identity"],
+    "text": "for any angle x, the square of the sine of x plus the square of the cosine of x is always equal to 1",
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\sin^2(\\alpha)+\\cos^2(\\alpha)=1",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "The square of the sine of an angle $\\alpha$ plus the square of the cosine of the same angle is always equal to $1$, i.e. $\\sin^2(\\alpha)+\\cos^2(\\alpha)=1$.",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "The identity $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$ holds true for any angle $\\alpha$, where $\\sin(\\alpha)$ represents the sine of the angle and $\\cos(\\alpha)$ represents the cosine of the angle.",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "For any angle $\\alpha$, the equation $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$ is always satisfied.",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "Considering an arbitrary angle $\\alpha$, the expression $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$ holds true, representing a fundamental relationship between the sine and cosine functions.",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "If we take any angle $\\alpha$, the equation $\\sin^2(\\alpha) + \\cos^2(\\alpha) = 1$ is always valid, signifying a fundamental property of the trigonometric functions.",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "\\sin(x)^2+\\cos(x)^2=1",
+        "variables": ["x"]
+      }
+    ],
+    "text_substitution": {"angle": "real number", "sine and cosine": "cosine and sine"},
+    "no-versions": [
+      "Eulers Formula",
+      "Pythagorean Theorem",
+      {
+        "formula": "\\sin^2(\\alpha)+\\cos^2(\\alpha)=0",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "\\sin^2(\\alpha)=\\cos^2(\\alpha)",
+        "variables": ["\\alpha"]
+      },
+      {
+        "formula": "\\sin(\\alpha)+\\cos(\\alpha)=1",
+        "variables": ["\\alpha"]
+      },
+      {"text_substitution": {"\\cos": ["\\sin", "\\arccos", "\\cosh"], "\\sin": ["\\cos", "\\arcsin", "\\sinh"]}}
+    ]
+  },
+  {
+    "id": "Law of Sines",
+    "names": ["Law of Sines"],
+    "tag": "formula",
+    "text": "the ratio of the sine of an angle to the length of the opposite side is the same for all angles and their corresponding sides",
+    "versions": [
+      {
+        "formula": "(sin A)/a = (sin B)/b = (sin C)/c",
+        "variables": ["A", "a", "B", "b", "C", "c"]
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a$, $b$, and $c$, and opposite angles $A$, $B$, and $C$, respectively, it holds: $(sin A)/a = (sin B)/b = (sin C)/c$.",
+        "variables": ["A", "a", "B", "b", "C", "c"]
+      },
+      {
+        "formula": "If we have a triangle with side lengths $a$, $b$, and $c$, and opposite angles $A$, $B$, and $C$, respectively, the equation $\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}$ is satisfied.",
+        "variables": ["A", "a", "B", "b", "C", "c"]
+      },
+      {
+        "formula": "\\sin(\\alpha)/a = \\sin(\\beta)/b = \\sin(\\gamma)/c",
+        "variables": ["\\alpha", "a", "\\beta", "b", "\\gamma", "c"]
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a$, $b$, and $c$, and opposite angles $\\alpha$, $\\beta$, and $\\gamma$, respectively, it holds: $\\sin(\\alpha)/a = \\sin(\\beta)/b = \\sin(\\gamma)/c$.",
+        "variables": ["\\alpha", "a", "\\beta", "b", "\\gamma", "c"]
+      },
+      {
+        "formula": "\\sin(\\alpha)/a = \\sin(\\beta)/b",
+        "variables": ["\\alpha", "a", "\\beta", "b"]
+      },
+      {
+        "formula": "The ratio of the length of a side $a$ to the sine of the angle opposite that side $\\alpha$ is equal to the ratio of the length of another side $b$ to the sine of the angle opposite that side $\\beta$.",
+        "variables": ["\\alpha", "a", "\\beta", "b"]
+      },
+      {
+        "formula": "\\sin(\\alpha)b = \\sin(\\beta)a",
+        "variables": ["\\alpha", "a", "\\beta", "b"]
+      }
+    ],
+    "no-versions": [
+      "Law of Cosines",
+      {
+        "formula": "\\sin(\\beta)b = \\sin(\\beta)a",
+        "variables": ["a", "\\beta", "b"]
+      },
+      {
+        "formula": "\\sin(\\alpha)b = \\cos(\\beta)a",
+        "variables": ["\\alpha", "a", "\\beta", "b"]
+      },
+      {"text_substitution": {"$a$, $b$": "$b$, $a$", "$b$ and $c$": "$c$ and $b$", "triangle": ["fourangle", "circle", "polyhedra"]}}
+    ]
+  },
+  {
+    "id": "Law of Cosines",
+    "names": ["Law of Cosines"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "c^2 = a^2 + b^2 - 2ab\\cos(C)",
+        "variables": []
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a$, $b$, and $c$, and opposite angles $A$, $B$, and $C$, respectively, it holds: $c^2 = a^2 + b^2 - 2ab\\cos(C), b^2 = a^2 + c^2 - 2ac\\cos(B), a^2 = b^2 + c^2 - 2bc\\cos(A)$",
+        "variables": ["a", "b", "c", "A", "B", "C"]
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a, b, c$, and opposite angle $\\gamma$ of $c$, it holds: $c^2 = a^2 + b^2 - 2ab\\cos(\\gamma)$",
+        "variables": ["a", "b", "c", "\\gamma"]
+      },
+      {
+        "formula": "c^2 = a^2 + b^2 - 2ab\\cos(\\gamma)",
+        "variables": []
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a, b, c$, and opposite angle $\\alpha$ of $a$, it holds: $a^2 = b^2 + c^2 - 2bc\\cos(\\alpha)$",
+        "variables": ["a", "b", "c", "\\alpha"]
+      },
+      {
+        "formula": "a^2 = b^2 + c^2 - 2bc\\cos(\\alpha)",
+        "variables": []
+      },
+      {
+        "formula": "In a triangle with sides of lengths $a, b, c$, and opposite angle $\\beta$ of $b$, it holds: $a^2 = b^2 + c^2 - 2bc\\cos(\\beta)$",
+        "variables": ["a", "b", "c", "\\beta"]
+      }
+    ],
+    "no-versions": [
+      "Law of Sines",
+      {
+        "formula": "In a triangle with sides of lengths $a, b, c$, and opposite angle $\\beta$ of $c$, it holds: $a^2 = b^2 + c^2 - 2bc\\cos(\\beta)$",
+        "variables": ["a", "b", "c", "\\beta"]
+      },
+      {
+        "formula": "c^2 = a^2 + b^2 - 2ac\\cos(C)",
+        "variables": []
+      },
+      {"text_substitution": {"$a$, $b$": "$b$, $a$", "$b$ and $c$": "$c$ and $b$", "triangle": ["square", "circle", "polyhedra"]}}
+    ]
+  },
+  {
+    "id": "Rule de l'Hopital",
+    "names": ["L'Hopital's Rule", "L'Hôpital's rule", "Rule de l'Hopital"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\lim_{x\\to a} \\frac{f(x)}{g(x)} = \\lim_{x\\to a} \\frac{f'(x)}{g'(x)}",
+        "variables": ["x", "a"],
+        "functions": ["g", "f"]
+      },
+      {
+        "formula": "The limit of the ration of two functions $\\lim_{x\\to a} \\frac{f(x)}{g(x)}$ is equal to ratio of their derivatives $\\lim_{x\\to a} \\frac{f'(x)}{g'(x)}$",
+        "variables": ["x", "a"],
+        "functions": ["g", "f"]
+      },
+      {
+        "formula": "Let $f(x)$ and $g(x)$ two differentiable functions. The limit of the ration of two functions $\\lim_{x\\to a} \\frac{f(x)}{g(x)}$ can be computed as the ratio of their derivatives $\\lim_{x\\to a} \\frac{f'(x)}{g'(x)}$",
+        "variables": ["x", "a"],
+        "functions": ["g", "f"]
+      }
+    ],
+    "no-versions": [
+      {
+        "formula": "\\lim_{a\\to x} \\frac{f(x)}{g(x)} = \\lim_{x\\to a} \\frac{f'(x)}{g'(x)}",
+        "variables": ["x", "a"],
+        "functions": ["g", "f"]
+      },
+      {
+        "formula": "\\lim_{x\\to a} \\frac{f(x)}{g(x)} = \\lim_{x\\to a} \\frac{f(x)}{g'(x)}",
+        "variables": ["x", "a"],
+        "functions": ["g", "f"]
+      }
+    ]
+  },
+  {
+    "id": "Taylor Series",
+    "names": ["Taylor Series", "Taylor Expansion", "Taylor approximation", "Power series expansion", "Analytic Representation"],
+    "text": "mathematical series that represents a function as an infinite sum of terms derived from the function's derivatives evaluated at a specific point",
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": " f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\frac{f''''(a)}{4!}(x-a)^4 + \\dots",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": " f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\dots",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "\\forall x, a\\in\\mathbb{R}: f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "For all real numbers $x$ and $a$ and any real analytic function $f$, we have $f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n$",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "The expansion $f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n$ expresses the function $f(x)$ as an infinite sum of its derivatives evaluated at $a$ multiplied by powers of $(x-a)$ divided by the factorial of $n$.",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": "\\forall x, a\\in\\mathbb{R}: f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\frac{f''''(a)}{4!}(x-a)^4 + \\dots",
+        "variables": ["x", "a"],
+        "functions": ["f"]
+      }
+    ],
+    "text_substitution": {"real": "complex", "\\mathbb{R}": "\\mathbb{C}", "the factorial of $n$": "$n!$"},
+    "no-versions": [
+      "Harmonic Series",
+      "Basel Problem",
+      "Alternating Harmonic Series",
+      "Sine Function Definition",
+      "Cosine Function Definition",
+      {
+        "formula": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": " f(x) = f(a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f'''(a)}{3!}(x-a)^3 + \\frac{f''''(a)}{4!}(x-a)^4 + \\dots",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {
+        "formula": " f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\frac{f''(a)}{3!}(x-a)^3 + \\frac{f''''(a)}{4!}(x-a)^4 + \\dots",
+        "variables": ["x", "n", "a"],
+        "functions": ["f"]
+      },
+      {"text_substitution": {"derivatives": ["antiderivatives", "integrals"], "powers": "roots", "divided": "multiplied"}}
+    ]
+  },
+  {
+    "id": "Sine Function Definition",
+    "names": ["Sine Function Definition"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\sin(x)=x - x^3/3! + x^5/5! - x^7/7! \\pm \\dots",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\sin(x) = \\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n+1}",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\sin(x) = x * \\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n}",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\sin(x) = \\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n+1} = x - x^3/3! + x^5/5! - x^7/7! \\pm \\dots",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "For all real numbers $x$ the expression $\\sin(x)$ is defined as the infinite sum $\\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n+1}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "The function $\\sin(x)$ for any real number $x$ can be represented as the infinite series $\\sum_{n=0}^\\infty \\frac{(-1)^n}{(2n+1)!} x^{2n+1}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "By utilizing the infinite series $\\sum_{n=0}^\\infty \\frac{(-1)^n}{(2n+1)!} x^{2n+1}$, we can define $\\sin(x)$ for all real numbers $x$.",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\sin(x) = \\frac{exp(i*x) - exp(-i*x)}{2i}",
+        "variables": ["x"],
+        "names": ["Sine function definition by complex exponential function"]
+      },
+      {
+        "formula": "The formula $sin(x)= \\frac{exp(i*x) - exp(-i*x)}{2i}$ relates for all real numbers $x$ the sine function to complex exponentials, expressing the sine of an angle $x$ as the difference between two complex exponentials divided by $2i$.",
+        "variables": ["x"],
+        "names": ["Sine function definition by complex exponential function"]
+      }
+    ],
+    "text_substitution": {"\\forall x\\in \\mathbb{R}: ": "", "\\mathbb{R}": "\\mathbb{R}", "complex": "real"},
+    "no-versions": [
+      "Cosine Function Definition",
+      "Taylor Series",
+      "Exponential Function",
+      {
+        "formula": "For all real numbers $x$ the expression $\\sin(x)$ is defined as the infinite sum $\\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n-1}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {"text_substitution": {"x^7/7!": ["x^6/6!", "x^4/4!", "x^7/6!", "x^7/5!"], "x^5/5!": ["x^4/4!", "x^6/6!", "x^5/6!", "x^5/7!"], "+ x^5/5!": "- x^5/5!", "\\pm \\dots": "", "x^{2n+1}": ["x^{2n}"], "\\sin(x)": "\\cos(x)"}}
+    ]
+  },
+    {
+    "id": "Cosine Function Definition",
+    "names": ["Cosine Function Definition"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\cos(x)= 1 - x^2/2! + x^4/4! - x^6/6! \\pm \\dots",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\cos(x) = \\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n}",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\cos(x) = x*\\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n-1}",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\cos(x) = \\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n} =  1 - x^2/2! + x^4/4! - x^6/6! \\pm \\dots",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "For all real numbers $x$ the expression $\\cos(x)$ is defined as the infinite sum $\\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "The function $\\cos(x)$ for any real number $x$ can be represented as the infinite series $\\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "By utilizing the infinite series $\\sum_{n=0}^\\infty (-1)^n/(2n)! x^{2n}$, we can define $\\cos(x)$ for all real numbers $x$.",
+        "variables": ["x"],
+        "names": ["Taylor series for cosine function", "Power series definition for cosine function"]
+      },
+      {
+        "formula": "\\forall x\\in \\mathbb{R}: \\cos(x) = \\frac{exp(i*x) + exp(-i*x)}{2}",
+        "variables": ["x"],
+        "names": ["Cosine function definition by complex exponential function"]
+      },
+      {
+        "formula": "The formula $cos(x)= \\frac{exp(i*x) + exp(-i*x)}{2}$ relates for all real numbers $x$ the cosine function to complex exponentials, expressing the cosine of an angle $x$ as the sum of two complex exponentials divided by $2$.",
+        "variables": ["x"],
+        "names": ["Cosine function definition by complex exponential function"]
+      }
+    ],
+    "text_substitution": {"\\forall x\\in \\mathbb{R}: ": "", "\\mathbb{R}": "\\mathbb{R}", "complex": "real"},
+    "no-versions": [
+      "Sine Function Definition",
+      "Taylor Series",
+      "Exponential Function",
+      {
+        "formula": "For all real numbers $x$ the expression $\\sin(x)$ is defined as the infinite sum $\\sum_{n=0}^\\infty (-1)^n/(2n+1)! x^{2n-1}$.",
+        "variables": ["x"],
+        "names": ["Taylor series for sine function", "Power series definition for sine function"]
+      },
+      {"text_substitution": {"x^6/6!": ["x^7/7!", "x^4/4!", "x^7/6!", "x^6/5!"], "x^4/4!": ["x^5/4!", "x^6/6!", "x^5/4!", "x^4/3!"], "+ x^4/4!": "- x^5/5!", "\\pm \\dots": "", "x^{2n}": ["x^{2n+1}"], "\\cos(x)": "\\sin(x)"}}
+    ]
+  },
+  {
+    "id": "Stirling Approximation",
+    "names": ["Stirling's formula", "Stirling's approximation", "Stirling approximation", "Stirling's formula for factorials"],
+    "text": ["estimate factorials and to approximate other functions involving large numbers or factorials"],
+    "tag": ["formula"],
+    "versions": [
+      {
+        "formula": "n! \\approx \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For all natural numbers $n$ sufficiently large, the formula $\\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n$ provides an approximation for the factorial of $n$",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The approximation $n! \\approx \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n$ provides an estimate of the factorial of $n$ in terms of other well-known mathematical constants like $\\pi$ and $e$ for large $n$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For large values of $n$, the approximation $n! \\approx \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n$ provides an estimation of the factorial of $n$ by utilizing the mathematical constants $\\pi$ and $e$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "When $n$ is a large number, the approximation $n! \\approx \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n$ provides an estimation of the factorial of $n$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\lim_{n\\to\\infty} \\frac{n!}{\\sqrt{2\\pi n} * (n/e)^n} = 1",
+        "variables": ["n"]
+      }
+    ],
+    "text_substitution": {"the factorial of $n$": "$n!$"},
+    "no-versions": [
+      "Factorial",
+      {
+        "formula": "n \\approx \\sqrt{2\\pi n} \\left(\\frac{n}{e}\\right)^n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "n! \\approx 2\\sqrt{\\pi n} \\left(\\frac{n}{e}\\right)^n",
+        "variables": ["n"]
+      },
+      {"text_substitution": {"natural": ["rational", "complex", "real"], "\\mathbb{N}": ["\\mathbb{Q}", "\\mathbb{C}", "\\mathbb{R}"], "large": "small"}}
+    ]
+  },
+  {
+    "id": "Gamma Function",
+    "names": ["Gamma Function", "Euler's Gamma Function"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall n\\in\\mathbb{N}: \\Gamma(n) = \\int_0^{\\infty} x^{n-1} e^{-x} dx = (n-1)!",
+        "variables": ["n", "x"]
+      },
+      {
+        "formula": "\\forall n\\in\\mathbb{N}: \\Gamma(n+1) = \\int_0^{\\infty} x^n e^{-x} dx = n!",
+        "variables": ["n", "x"]
+      },
+      {
+        "formula": "The integral of $x^n$ multiplied by the exponential function $exp(-x)$ over the range from $0$ to $\\infty$ yields the value of $n!$.",
+        "variables": ["n", "x"]
+      },
+      {
+        "formula": "For all natural numbers $n$, we have $\\Gamma(n+1) = \\int_0^{\\infty} x^n e^{-x} dx = n!$, i.e. $\\Gamma(n) = n!$.",
+        "variables": ["n", "x"]
+      },
+      {
+        "formula": "\\forall n\\in\\mathbb{N}: \\Gamma(n-1) = \\int_0^\\infty x^{n-1} e^{-x} dx = (n-1)!",
+        "variables": ["n", "x"]
+      },
+      {
+        "formula": "\\forall z\\in\\mathbb{C}\\\\{0, -1, -2, \\dots\\}: \\Gamma(z) = \\int_0^{\\infty} x^(z-1) e^{-x} dx",
+        "variables": ["z", "x"]
+      },
+      {
+        "formula": "For all complex numbers $z$ with $z\\not\\in\\{0, -1, -2, \\dots\\}$, we have $\\Gamma(z) = \\int_0^{\\infty} x^(z-1) e^{-x} dx$",
+        "variables": ["z", "x"]
+      },
+      {
+        "formula": "\\forall z\\in \\mathbb{C}, Re(z)>0: \\Gamma(z) = \\int_0^{\\infty} x^(z-1) e^{-x} dx",
+        "variables": ["z", "x"]
+      },
+      {
+        "formula": "\\forall z\\in\\mathbb{C}\\\\{0, -1, -2, \\dots\\}: \\Gamma(z) = \\lim_{n\\to\\infty}\\frac{n!n^z}{z*(z+1)*(z+2)*\\dots*(z+n)}",
+        "variables": ["z", "x"]
+      }
+    ],
+    "text_substitution": {"\\forall n\\in\\mathbb{N}:": "", "\\forall z\\in\\mathbb{C}: ": ""},
+    "no-versions": [
+      "Factorial",
+      {
+        "formula": "\\Gamma(n) = \\int_{-\\infty}^{\\infty} x^n e^{-x} dx = n!",
+        "variables": ["n", "x"]
+      }
+    ]
+  },
+  {
+    "id": "Exponential Function",
+    "names": ["Exponential Function", "e function", "Eulers e function", "Eulers function"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: \\lim_{n\\to\\infty}\\left(1 + x/n\\right)^n = exp(x)",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "The limit as $n$ approaches infinity of the expression $(1+x/n)^n$ converges to the exponential function $exp(x)$ for any real number $x$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For any real number $x$, the expression $\\lim_{n \\to \\infty} (1 + \\frac{x}{n})^n$ converges to the exponential function $e^x$ as $n$ approaches infinity.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "The limit as $n$ goes to infinity of $(1 + \\frac{x}{n})^n$ is equal to the exponential function $e^x$ for all real numbers $x$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: exp(x) = 1 + x + x^2/2! + x^3/3! + \\dots",
+        "variables": ["x"],
+        "names": ["Taylor expansion of e function", "Taylor expansion of exponential function", "Maclaurin series of exponential series"]
+      },
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: exp(x) = 1 + x/1! + x^2/2! + x^3/3! + x^4/4! + \\dots",
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: exp(x) = 1 + x/1! + x^2/2! + x^3/3! + x^4/4! + x^5/5! + \\dots",
+        "variables": ["x"]
+      },
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: exp(x) = \\sum_{k=0}^\\infty x^k/k!",
+        "variables": ["x", "k"]
+      },
+      {
+        "formula": "For any real number $x$ we can write $exp(x)$ as the infinite sum $\\sum_{k=0}^\\infty x^k/k!$.",
+        "variables": ["x", "k"]
+      },
+      {
+        "formula": "\\forall x\\in\\mathbb{R}: exp(x) = \\sum_{k=0}^\\infty x^k/k! = 1 + x + x^2/2! + x^3/3! + \\dots",
+        "variables": ["x", "k"]
+      }
+    ],
+    "text_substitution": {"real": "complex", "infinity": "$\\infty$", "\\mathbb{R}": "\\mathbb{C}", "\\forall x\\in\\mathbb{R}:": ""},
+    "no-versions": [
+      "Eulers Number",
+      {
+        "formula": "exp(x) = 1 + x/1! + x^3/3! + x^5/5! \\dots",
+        "variables": ["x"]
+      },
+      {"text_substitution": {"x^k/k!": "(x/k!)^k", "+ \\dots": ""}}
+    ]
+  },
+  {
+    "id": "Eulers Number",
+    "names": ["Eulers number", "Number e", "Mathematical constant e"],
+    "tag": "definition",
+    "versions": [
+      {
+        "formula": "e = \\lim_{n\\to \\infty}(1+1/n)^n",
+        "variables": ["n"]
+      },
+      {
+        "formula": "As $n$ approaches infinity, the expression $(1+1/n)^n$ converges to the value of $e\\approx 2.718$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "When $n$ approaches infinity, the limit of $(1 + \\frac{1}{n})^n$ equals the mathematical constant $e \\approx 2.718$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The value of $(1 + \\frac{1}{n})^n$ approaches the constant $e \\approx 2.718$ as $n$ tends to infinity.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "e = 1 + 1/1! + 1/2! + 1/3! + 1/4! + \\dots",
+        "variables": ["n"]
+      },
+      {
+        "formula": "e = 1/0! + 1/1! + 1/2! + 1/3! + 1/4! + 1/5! + \\dots",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\sum_{n=0}^\\infty 1/n!",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The mathematical constant $e$ can be defined as the sum of the reciprocals of factorials for all positive integers: $\\sum_{n=0}^\\infty 1/n!$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The constant $e$ can be defined as the sum of the terms in the series $\\sum_{n=0}^\\infty 1/n!$, which consists of the reciprocals of factorials for positive integers.",
+        "variables": ["n"]
+      }
+    ],
+    "text_substitution": {"infinity": "$\\infty$", " \\approx 2.718": ["", "\\approx 2.71828"], "\\sum_{n=1}^\\infty 1/n!": "\\sum_{n=1}^\\infty 1/n! = 1+1/1!+1/2!+1/3!+1/4!+\\dots"},
+    "no-versions": [
+      "Exponential Function",
+      "Sine Function Definition",
+      "Cosine Function Definition",
+      {
+        "formula": "e = 1 + 1/1! + 1/3! + 1/5! + \\dots",
+        "variables": ["n"]
+      },
+      {"text_substitution": {"n=0": "n=1", "1/2!": ""}}
+    ]
+  },
+  {
+    "id": "Addition Theorem for Sine",
+    "names": ["Addition Theorem for Sine"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall \\alpha,\\beta\\in\\mathbb{R}: \\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the sine of the sum of two angles, $sin(\\alpha+\\beta)$, can be expressed as $\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "The formula $\\sin(\\alpha+\\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)$ holds true for any angles $\\alpha$ and $\\beta$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "When considering the sum of two angles, $\\alpha$ and $\\beta$, the sine of the sum, $\\sin(\\alpha+\\beta)$, can be represented as $\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the expression $\\sin(\\alpha+\\beta)$ can be written as $\\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      }
+    ],
+    "text_substitution": {"\\forall \\alpha,\\beta\\in\\mathbb{R}: ": ["", "\\forall \\alpha,\\beta\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{R}: "], "angles": ["real numbers", "complex numbers"]},
+    "no-versions": [
+      "Law of Sines",
+      "Law of Cosines",
+      "Addition Theorem for Cosine",
+      "Addition Theorem for Tangent",
+        {
+        "formula": "\\sin(\\alpha+\\beta)=\\sin(\\alpha)+\\sin(\\alpha)",
+        "variables": ["\\alpha", "\\beta"]
+      },
+      {"text_substitution": {"\\sin": ["\\cos", "\\tan"], "\\cos": ["\\sin", "\\tan"], "sine": ["tangent", "sine"]}}
+    ]
+  },
+  {
+    "id": "Addition Theorem for Cosine",
+    "names": ["Addition Theorem for Cosine"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall \\alpha,\\beta\\in\\mathbb{R}: \\cos(\\alpha + \\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the cosine of the sum of two angles, $cos(\\alpha+\\beta)$, can be expressed as $\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "The formula $\\cos(\\alpha+\\beta) = \\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)$ holds true for any angles $\\alpha$ and $\\beta$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "When considering the sum of two angles, $\\alpha$ and $\\beta$, the cosine of the sum, $\\cos(\\alpha+\\beta)$, can be represented as $\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the expression $\\cos(\\alpha+\\beta)$ can be written as $\\cos(\\alpha)\\cos(\\beta) - \\sin(\\alpha)\\sin(\\beta)$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      }
+    ],
+    "text_substitution": {"\\forall \\alpha,\\beta\\in\\mathbb{R}: ": ["", "\\forall \\alpha,\\beta\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{R}: "], "angles": ["real numbers", "complex numbers"]},
+    "no-versions": [
+      "Law of Sines",
+      "Law of Cosines",
+      "Addition Theorem for Sine",
+      "Addition Theorem for Tangent",
+      {
+        "formula": "\\cos(\\alpha+\\beta)=\\cos(\\alpha)+\\cos(\\alpha)",
+        "variables": ["\\alpha", "\\beta"]
+      },
+      {"text_substitution": {"\\sin": ["\\cos", "\\tan"], "\\cos": ["\\sin", "\\tan"], "cosine": ["cosine", "tangent"]}}
+    ]
+  },
+{
+    "id": "Addition Theorem for Tangent",
+    "names": ["Addition Theorem for Tangent"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall \\alpha,\\beta\\in\\mathbb{R}: \\tan(\\alpha + \\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the tangent of the sum of two angles, $tan(\\alpha+\\beta)$, can be expressed as $\\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "The formula $\\tan(\\alpha+\\beta) = \\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}$ holds true for any angles $\\alpha$ and $\\beta$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "When considering the sum of two angles, $\\alpha$ and $\\beta$, the tangent of the sum, $\\tan(\\alpha+\\beta)$, can be represented as $\\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      },
+      {
+        "formula": "For any angles $\\alpha$ and $\\beta$, the expression $\\tan(\\alpha+\\beta)$ can be written as $\\frac{\\tan(\\alpha) + \\tan(\\beta)}{1 - \\tan(\\alpha)\\tan(\\beta)}$.",
+        "variables": ["\\alpha", "\\beta"],
+        "special_variable_candidates": ["x", "y", "z", "a", "b", "c"]
+      }
+    ],
+    "text_substitution": {"\\forall \\alpha,\\beta\\in\\mathbb{R}: ": ["", "\\forall \\alpha,\\beta\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{C}: ", "\\forall \\beta,\\alpha\\in\\mathbb{R}: "], "angles": ["real numbers", "complex numbers"]},
+    "no-versions": [
+      "Law of Sines",
+      "Law of Cosines",
+      "Addition Theorem for Sine",
+      "Addition Theorem for Cosine",
+      {
+        "formula": "\\tan(\\alpha+\\beta)=\\tan(\\alpha)+\\tan(\\alpha)",
+        "variables": ["\\alpha", "\\beta"]
+      },
+      {"text_substitution": {"tangent": ["cosine", "sine"]}}
+    ]
+  },
+  {
+    "id": "Bernouilli Inequality",
+    "names": ["Bernouili Inequality"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "x \\ge -1, \\alpha > 1 \\Rightarrow (1 + x)^\\alpha \\ge 1",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "\\forall x \\ge -1, \\forall \\alpha > 1 \\Rightarrow (1 + x)^\\alpha \\ge 1",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "For any real numbers $x\\ge -1$ and $\\alpha\\ge 1$, it holds that $(1 + x)^\\alpha \\ge 1$.",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "The inequality $(1 + x)^\\alpha \\ge 1$ holds true for any real numbers $x \\ge -1$ and $\\alpha \\ge 1$.",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "For any real numbers $x \\ge -1$ and $\\alpha \\ge 1$, the expression $(1 + x)^\\alpha$ is never less than $1$.",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "\\forall x, \\alpha\\in\\mathbb{R}, x \\ge -1, \\alpha > 1 \\Rightarrow (1 + x)^\\alpha \\ge 1",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["n", "m"]}
+      },
+      {
+        "formula": "x \\ge -1, 0 < \\alpha < 1 \\Rightarrow (1 + x)^\\alpha \\le 1",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "\\forall x \\ge -1, \\forall \\alpha: 0 < \\alpha < 1 \\Rightarrow (1 + x)^\\alpha \\le 1",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "For all real numbers $x$ and $\\alpha$ with $x \\ge -1$ and $0 < \\alpha < 1$ it holds that $(1 + x)^\\alpha \\le 1$.",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "For all real numbers $x$ and $\\alpha$ satisfying $x \\ge -1$ and $0 < \\alpha < 1$, the inequality $(1 + x)^\\alpha \\le 1$ is true.",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "The expression $(1 + x)^\\alpha$ is always less than or equal to $1$ for any real numbers $x \\ge -1$ and $0 < \\alpha < 1$.",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "For any real numbers $x$ and $\\alpha$ with $x \\ge -1$ and $0 < \\alpha < 1$, the value of $(1 + x)^\\alpha$ is never greater than $1$.",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "\\forall x,\\alpha\\in\\R, x \\ge -1, 0 < \\alpha < 1 \\Rightarrow (1 + x)^\\alpha \\le 1",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "The inequality $(1 + x)^\\alpha \\le 1$ is satisfied by all real numbers $x \\ge -1$ and $0 < \\alpha < 1$. If $\\alpha>1$, then $(1 + x)^\\alpha \\ge 1$ holds true.",
+        "variables": ["x", "\\alpha"]
+      }
+    ],
+    "no-versions": [
+      "Young Inequality",
+      "Hölder Inequality",
+      "Minkowski Inequality",
+      {
+        "formula": "x \\ge -1, \\alpha > 1 \\Rightarrow (1 + x)^\\alpha \\le 1",
+        "variables": ["x", "\\alpha"]
+      },
+      {
+        "formula": "x \\ge -1, 0 < \\alpha < 1 \\Rightarrow (1 + x)^\\alpha \\ge 1",
+        "variables": ["x", "\\alpha"]
+      },
+      {"text_substitution": {"less": "greater", "inequality": "equality", "holds": "holds not"}}
+    ]
+  },
+  {
+    "id": "Young Inequality",
+    "names": ["Young's Inequality"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "p>1, q>1, 1/p + 1/q = 1, a\\ge 0, b\\ge 0 \\Rightarrow ab \\le a^p/p + b^q/q",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "\\forall p, q>1, 1/p + 1/q = 1, \\forall a,b\\ge 0 \\Rightarrow ab \\le a^p/p + b^q/q",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "\\forall p,q,a,b\\in\\mathbb{R}: p>1, q>1, 1/p + 1/q = 1, a\\ge 0, b\\ge 0 \\Rightarrow ab \\le a^p/p + b^q/q",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "For all real numbers $p,q,a,b$ with $p>1, q>1, 1/p + 1/q = 1, a\\ge 0, b\\ge 0$, the inequality $ab \\le a^p/p + b^q/q$ holds true.",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "The inequality $ab \\le \\frac{a^p}{p} + \\frac{b^q}{q}$ is valid for all real numbers $p, q, a, b$ such that $p > 1$, $q > 1$, $1/p + 1/q = 1$, $a \\ge 0$, and $b \\ge 0$.",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "When considering real numbers $p, q, a, b$ with $p > 1$, $q > 1$, $1/p + 1/q = 1$, $a \\ge 0$, and $b \\ge 0$, the inequality $ab \\le \\frac{a^p}{p} + \\frac{b^q}{q}$ always holds true.",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "formula": "For any real numbers $p, q, a, b$ satisfying $p > 1$, $q > 1$, $1/p + 1/q = 1$, $a \\ge 0$, and $b \\ge 0$, the inequality $ab \\le \\frac{a^p}{p} + \\frac{b^q}{q}$ is always satisfied.",
+        "variables": ["p", "q", "a", "b"]
+      },
+      {
+        "names": ["Binomial Inequality"],
+        "formula": "ab \\le \\frac{a^2+b^2}{2}",
+        "variables": ["a", "b"]
+      },
+      {
+        "names": ["Binomial Inequality"],
+        "formula": "\\forall a,b\\in\\mathbb{R}: ab \\le \\frac{a^2+b^2}{2}",
+        "variables": ["a", "b"]
+      },
+      {
+        "names": ["Binomial Inequality"],
+        "formula": "For all real numbers $a$ and $b$, the inequality $ab \\le \\frac{a^2+b^2}{2}$ holds true.",
+        "variables": ["a", "b"]
+      },
+      {
+        "names": ["Binomial Inequality"],
+        "formula": "The inequality $ab \\le \\frac{a^p}{p} + \\frac{b^q}{q}$ holds for all real numbers $p, q, a, b$ with $p > 1$, $q > 1$, $1/p + 1/q = 1$, $a \\ge 0$, and $b \\ge 0$. If $p=2=q$, the special inequality $ab \\le \\frac{a^2+b^2}{2}$ follows.",
+        "variables": ["a", "b"]
+      }
+    ],
+    "no-versions": [
+      "Bernouilli Inequality",
+      "Hölder Inequality",
+      "Minkowski Inequality",
+      {"text_substitution": {"inequality": "equality", "holds": "holds not"}}
+    ]
+  },
+  {
+    "id": "Hölder Inequality",
+    "names": ["Hölder Inequality"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "p>1, q>1, 1/p + 1/q = 1 \\Rightarrow \\sum_{i=1}^n |x_iy_i| \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^\\frac{1}{p} \\left(\\sum_{i=1}^n|y_i|^q\\right)^\\frac{1}{q}",
+        "variables": ["p", "q", "x", "y", "i", "n"]
+      },
+      {
+        "formula": "\\forall p,q>1, 1/p + 1/q = 1 \\forall x,y\\in\\mathbb{R}^n \\Rightarrow \\sum_{i=1}^n |x_iy_i| \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^\\frac{1}{p} \\left(\\sum_{i=1}^n|y_i|^q\\right)^\\frac{1}{q}",
+        "variables": ["p", "q", "x", "y", "i", "n"]
+      },
+      {
+        "formula": "p>1, q>1, 1/p + 1/q = 1 \\Rightarrow \\|fg\\|_1\\le \\|f\\|_p\\|g\\|_q",
+        "variables": ["p", "q"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "\\forall p,q\\in\\mathbb{R}, p,q>1, 1/p + 1/q = 1 \\Rightarrow \\|fg\\|_1\\le \\|f\\|_p\\|g\\|_q",
+        "variables": ["p", "q"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "For all real numbers $p$ and $q$ with $p>1,q>1, 1/p + 1/q = 1$, the inequality $\\|fg\\|_1\\le \\|f\\|_p\\|g\\|_q$ holds true, where $\\|f\\|_p$ denotes the $L^p$-norm of $f$.",
+        "variables": ["p", "q"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "The inequality $|fg|_1 \\le |f|_p |g|_q$ is valid for any real numbers $p$ and $q$ with $p > 1$, $q > 1$, and $1/p + 1/q = 1$, where $|f|_p$ denotes the $L^p$-norm of $f$.",
+        "variables": ["p", "q"],
+        "functions": ["f", "g"]
+      },
+      {
+        "formula": "For any real numbers $p$ and $q$ satisfying $p > 1$, $q > 1$, and $1/p + 1/q = 1$, the inequality $|fg|_1 \\le |f|_p |g|_q$ is always satisfied, where $|f|_q$ denotes the $L^q$-norm of $f$.",
+        "variables": ["p", "q"],
+        "functions": ["f", "g"]
+      },
+      {
+        "names": ["Cauchy Schwarz Inequality"],
+        "formula": "\\sum_{i=1}^n |x_iy_i| \\le \\left(\\sum_{i=1}^n|x_i|^2\\right)^\\frac{1}{2} \\left(\\sum_{i=1}^n|y_i|^2\\right)^\\frac{1}{2}",
+        "variables": ["x", "y"]
+      },
+      {
+        "names": ["Cauchy Schwarz Inequality"],
+        "formula": "\\forall x,y\\in\\mathbb{R}^n: \\sum_{i=1}^n |x_iy_i| \\le \\left(\\sum_{i=1}^n|x_i|^2\\right)^\\frac{1}{2} \\left(\\sum_{i=1}^n|y_i|^2\\right)^\\frac{1}{2}",
+        "variables": ["x", "y"]
+      },
+      {
+        "names": ["Cauchy Schwarz Inequality"],
+        "formula": "\\left( \\sum_{i=1}^n x_i y_i \\right)^2 \\le \\left( \\sum_{i=1}^n x_i^2 \\right) \\left( \\sum_{i=1}^n y_i^2 \\right)",
+        "variables": ["x", "y"]
+      },
+      {
+        "names": ["Cauchy Schwarz Inequality"],
+        "formula": "\\forall x,y\\in\\mathbb{R}^n: \\left( \\sum_{i=1}^n x_i y_i \\right)^2 \\le \\left( \\sum_{i=1}^n x_i^2 \\right) \\left( \\sum_{i=1}^n y_i^2 \\right)",
+        "variables": ["x", "y"]
+      }
+    ],
+    "no-versions": [
+      "Bernouilli Inequality",
+      "Young Inequality",
+      "Minkowski Inequality",
+      {"text_substitution": {"inequality": "equality", "holds": "holds not"}}
+    ]
+  },
+  {
+    "id": "Minkowski Inequality",
+    "names": ["Minkowski Inequality"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "p>1 \\Rightarrow \\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}",
+        "variables": ["p", "i", "n", "x", "y"]
+      },
+      {
+        "formula": "\\forall p>1 \\Rightarrow \\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}",
+        "variables": ["p", "i", "n", "x", "y"]
+      },
+      {
+        "formula": "\\forall p\\in\\mathbb{R}: p>1 \\Rightarrow \\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}",
+        "variables": ["p", "i", "n", "x", "y"]
+      },
+      {
+        "formula": "For all real number p and $n$-dimensional vectors $x$ and $y$, the inequality $\\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}$ holds true.",
+        "variables": ["p", "i", "n", "x", "y"]
+      },
+      {
+        "formula": "The inequality $\\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}$ is valid for any real number $p$ and $n$-dimensional vectors $x$ and $y$.",
+        "variables": ["p", "i", "n", "x", "y"]
+      },
+      {
+        "formula": "The inequality $\\sum_{i=1}^n |x_i + y_i|^\\frac{1}{p} \\le \\left(\\sum_{i=1}^n|x_i|^p\\right)^{\\frac{1}{p}} + \\left(\\sum_{i=1}^n|y_i|^p\\right)^{\\frac{1}{p}}$ holds for all real numbers $p$, indicating the relationship between the sums of absolute values and the $L^p$-norms of n-dimensional vectors $x$ and $y$.",
+        "variables": ["p", "i", "n", "x", "y"]
+      }
+    ],
+    "text_substitution": {" and $n$-dimensional vectors $x$ and $y$": ""},
+    "no-versions": [
+      "Bernouilli Inequality",
+      "Young Inequality",
+      "Hölder Inequality",
+      {"text_substitution": {"inequality": "equality", "holds": "holds not"}}
+    ]
+  },
+  {
+    "id": "Bayes' Theorem",
+    "names": ["Bayes' Theorem", "Bayes Theorem", "Bayes law", "Bayes probability rule", "Bayes conditional probability theorem", "Bayes posterior probability theorem"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "P(A|B) = (P(B|A) \\cdot P(A)) / P(B)",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "Given two events $A$ and $B$, the conditional probability of $A$ given $B$ is given by $P(A|B) = (P(B|A) \\cdot P(A)) / P(B)$, where $P(A)$ and $P(B)$ are the probabilities of events $A$ and $B$, respectively.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "The formula for calculating the conditional probability $P(A|B)$ states that it is equal to the product of the probability of event $B$ given event $A$, denoted as $P(B|A)$, and the probability of event $A$, divided by the probability of event $B$, denoted as $P(B)$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "When considering two events $A$ and $B$, the conditional probability $P(A|B)$ can be determined using the formula $P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "The formula $P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}$ provides a way to calculate the conditional probability of event $A$ given event $B$ based on the probabilities of events $A$ and $B$ as well as the probability of event $B$ given event $A$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "Given two events $A$ and $B$, the conditional probability $P(A|B)$ can be computed using the formula $P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}$, where $P(A)$ and $P(B)$ represent the probabilities of events $A$ and $B$ respectively, and $P(B|A)$ represents the probability of event $B$ given event $A$.",
+        "variables": ["A", "B"]
+      }
+    ],
+    "text_substitution": {"the conditional probability ": ""},
+    "no-versions": [
+      "Law of Total Probability",
+      {
+        "formula": "P(A|B) = (P(A|B) \\cdot P(A)) / P(B)",
+        "variables": ["A", "B"]
+      },
+      {"text_substitution": {"P(A|B)": "P(B|A)"}}
+    ]
+  },
+  {
+    "id": "Binomial Distribution",
+    "names": ["Binomial Distribution"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "P(X=k) = \\binom{n}{k} p^k * (1-p)^{n-k}",
+        "variables": ["k", "n", "X"]
+      },
+      {
+        "formula": "For a random variable $X$ of this distribution, the number of trials $n$, the probability of success $p$, the probability mass function is $P(X=k) = \\binom{n}{k} p^k * (1-p)^{n-k}$.",
+        "variables": ["k", "n", "X", "p"]
+      },
+      {
+        "formula": "In this distribution, the PMF of the random variable $X$ is defined as $P(X=k) = \\binom{n}{k} p^k * (1-p)^{n-k}$, where $n$ represents the number of trials, $p$ represents the probability of success, and $k$ represents the number of successful outcomes.",
+        "variables": ["k", "n", "X", "p"]
+      },
+      {
+        "formula": "In the given distribution, the probability mass function (PMF) of a random variable $X$ is defined as $P(X=k) = \\binom{n}{k} p^k * (1-p)^{n-k}$, where $n$ is the number of trials, $p$ is the probability of success, and $k$ is the number of successful outcomes.",
+        "variables": ["k", "n", "X", "p"]
+      },
+      {
+        "formula": "The probability mass function (PMF) of a random variable $X$ following this distribution is expressed as $P(X=k) = \\binom{n}{k} p^k * (1-p)^{n-k}$, where $n$ represents the number of trials, $p$ represents the probability of success, and $k$ represents the number of successful outcomes.",
+        "variables": ["k", "n", "X", "p"]
+      }
+    ],
+    "text_substitution": {"this distribution": "the Binomial Distribution"},
+    "no-versions": [
+      "Poisson Distribution",
+      "Normal Distribution",
+      {"text_substitution": {"this distribution": ["the Poisson Distribution", "the Normal Distribution"], "trials": "successes", "successful outcomes": "trials"}}
+    ]
+  },
+  {
+    "id": "Poisson Distribution",
+    "names": ["Poisson Distribution"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}",
+        "variables": ["k", "X"]
+      },
+      {
+        "formula": "For a random variable $X$ of this distribution, the average rate $\\lambda$, the probability mass function is $P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$.",
+        "variables": ["k", "X", "\\lambda"]
+      },
+      {
+        "formula": "The probability mass function (PMF) of a random variable $X$ with average rate $\\lambda$ is given by $P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$. Here, $k$ represents the number of events.",
+        "variables": ["k", "X", "\\lambda"]
+      },
+      {
+        "formula": "In the given distribution, the probability mass function (PMF) of a random variable $X$ is defined as $P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$, where $\\lambda$ is the average rate and $k$ is the number of events.",
+        "variables": ["k", "X", "\\lambda"]
+      },
+      {
+        "formula": "The probability mass function (PMF) of a random variable $X$ following this distribution is expressed as $P(X=k) = \\frac{e^{-\\lambda} \\lambda^k}{k!}$, where $\\lambda$ represents the average rate and $k$ represents the number of events.",
+        "variables": ["k", "X", "\\lambda"]
+      }
+    ],
+    "text_substitution": {"this distribution": "the Poisson Distribution", " (PMF)": ""},
+    "no-versions": [
+      "Binomial Distribution",
+      "Normal Distribution",
+      {"text_substitution": {"this distribution": ["the Binomial Distribution", "the Normal Distribution"], "average rate": "number of trials", "number of events": "average rate"}}
+    ]
+  },
+  {
+    "id": "Normal Distribution",
+    "names": ["Normal Distribution"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}",
+        "variables": ["x"]
+      },
+      {
+        "formula": "The probability density function of this distribution with mean $\\mu$ and standard deviation $\\sigma$ is $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$.",
+        "variables": ["x", "\\mu", "\\sigma"]
+      },
+      {
+        "formula": "In this distribution, the probability density function (PDF) with mean $\\mu$ and standard deviation $\\sigma$ is represented by $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$.",
+        "variables": ["x", "\\mu", "\\sigma"]
+      },
+      {
+        "formula": "The probability density function (PDF) of a distribution with mean $\\mu$ and standard deviation $\\sigma$ is defined as $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$.",
+        "variables": ["x", "\\mu", "\\sigma"]
+      },
+      {
+        "formula": "The probability density function (PDF) for this distribution, characterized by the mean $\\mu$ and standard deviation $\\sigma$, can be expressed as $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$.",
+        "variables": ["x", "\\mu", "\\sigma"]
+      },
+      {
+        "formula": "In the given distribution, the probability density function (PDF) is given by $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$, where $\\mu$ represents the mean and $\\sigma$ represents the standard deviation.",
+        "variables": ["x", "\\mu", "\\sigma"]
+      }
+    ],
+    "text_substitution": {"this distribution": "the Normal Distribution", " (PDF)": "", "mean $\\mu$ and standard deviation $\\sigma$": "standard deviation $\\sigma$ and mean $\\mu$"},
+    "no-versions": [
+      "Poisson Distribution",
+      "Binomial Distribution",
+      {
+        "formula": "The probability density function with mean $\\sigma$ and standard deviation $\\mu$ is $f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-(x-\\mu)^2/(2\\sigma^2)}$",
+        "variables": ["x", "\\mu", "\\sigma"]
+      },
+      {"text_substitution": {"this distribution": ["the Binomial Distribution", "the Poisson Distribution"], "standard deviation": "mean", "mean": "standard deviation", "mean $\\mu$ and standard deviation $\\sigma$": "standard deviation $\\mu$ and mean $\\sigma$"}}
+    ]
+  },
+  {
+    "id": "Law of Total Probability",
+    "names": ["Law of Total Probabilities"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "P(A) = \\sum_{i=1}^n P(A|B_i)P(B_i)",
+        "variables": ["A", "B", "i", "n"]
+      },
+      {
+        "formula": "If we have a set of $n$ mutually exclusive and exhaustive events $B1, \\dots, B_n$ (meaning that exactly one of these events must occur), we have that $P(A) = \\sum_{i=1}^n P(A|B_i)P(B_i)$ for any event $A$.",
+        "variables": ["A", "B", "i", "n"]
+      },
+      {
+        "formula": "For a set of $n$ mutually exclusive and exhaustive events $B_1, \\dots, B_n$, where exactly one of these events must occur, and for any event $A$, the probability of event $A$ is given by $P(A) = \\sum_{i=1}^n P(A|B_i)P(B_i)$.",
+        "variables": ["A", "B", "i", "n"]
+      },
+      {
+        "formula": "In the case of a set of $n$ mutually exclusive and exhaustive events $B_1, \\dots, B_n$, where exactly one of these events must occur, and for any event $A$, the probability $P(A)$ can be computed as $P(A) = \\sum_{i=1}^n P(A|B_i)P(B_i)$.",
+        "variables": ["A", "B", "i", "n"]
+      },
+      {
+        "formula": "Consider a set of $n$ mutually exclusive and exhaustive events $B_1, \\dots, B_n$, where exactly one of these events must occur. For any event $A$, the probability $P(A)$ can be expressed as $P(A) = \\sum_{i=1}^n P(A|B_i)P(B_i)$.",
+        "variables": ["A", "B", "i", "n"]
+      }
+    ],
+    "text_substitution": {"$n$ ": ""},
+    "no-versions": [
+      "Bayes' Theorem"
+    ]
+  },
+  {
+    "id": "Expected Value",
+    "names": ["Expected Value", "Expected value of a random variable", "expected value formula"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "E(X) = \\sum_{i=1}^n x_i P(X=x_i)",
+        "variables": ["i", "n", "X", "x"],
+        "names": ["Discrete Expected Value"]
+      },
+      {
+        "formula": "The expected value of a discrete random variable $X$ with possible values $x_1, \\dots, x_n$ is given by $E(X) = \\sum_{i=1}^n x_i P(X=x_i)$.",
+        "variables": ["i", "n", "X", "x"],
+        "names": ["Discrete Expected Value"]
+      },
+      {
+        "formula": "For a discrete random variable $X$ with possible values $x_1, \\dots, x_n$ and corresponding probabilities $P(X=x_1), \\dots, P(X=x_n)$, the expected value $E(X)$ is obtained by evaluating the sum $\\sum_{i=1}^n x_i P(X=x_i)$.",
+        "variables": ["i", "n", "X", "x"],
+        "names": ["Discrete Expected Value"]
+      },
+      {
+        "formula": "The formula $E(X) = \\sum_{i=1}^n x_i P(X=x_i)$ provides the expected value of a discrete random variable $X$ with possible values $x_1, \\dots, x_n$ and their corresponding probabilities.",
+        "variables": ["i", "n", "X", "x"],
+        "names": ["Discrete Expected Value"]
+      },
+      {
+        "formula": "In the case of a discrete random variable $X$ with possible values $x_1, \\dots, x_n$, the expected value $E(X)$ is given by the expression $E(X) = \\sum_{i=1}^n x_i P(X=x_i)$.",
+        "variables": ["i", "n", "X", "x"],
+        "names": ["Discrete Expected Value"]
+      },
+      {
+        "formula": "E(X) = \\int_{-\\infty}^{\\infty} x f(x) dx",
+        "variables": ["X", "x"],
+        "names": ["Continuous Expected Value"]
+      },
+      {
+        "formula": "The equation $E(X) = \\int_{-\\infty}^{\\infty} x f(x) dx$ represents the expected value of a continuous random variable $X$ with probability density function $f(x)$.",
+        "variables": ["X", "x"],
+        "names": ["Continuous Expected Value"]
+      },
+      {
+        "formula": "The equation $E(X) = \\int_{-\\infty}^{\\infty} x f(x) dx$ defines the expected value of a continuous random variable $X$ with probability density function $f(x)$.",
+        "variables": ["X", "x"],
+        "names": ["Continuous Expected Value"]
+      },
+      {
+        "formula": "The expected value $E(X)$ of a continuous random variable $X$ with probability density function $f(x)$ can be computed using the integral $\\int_{-\\infty}^{\\infty} x f(x) dx$.",
+        "variables": ["X", "x"],
+        "names": ["Continuous Expected Value"]
+      },
+      {
+        "formula": "For a continuous random variable $X$ with probability density function $f(x)$, the expected value $E(X)$ is given by the integral $\\int_{-\\infty}^{\\infty} x f(x) dx$.",
+        "variables": ["X", "x"],
+        "names": ["Continuous Expected Value"]
+      }
+    ],
+    "text_substitution": {"expected value": "mean", "probability density function" :  "pdf"},
+    "no-versions": [
+      "Law of Total Probability",
+      "Variance",
+      "Covariance",
+      "Law of Large Numbers",
+      {"text_substitution": {"continuous": ["discrete"], "discrete": ["continuous"], "expected value": ["variance", "covariance"]}}
+    ]
+  },
+  {
+    "id": "Variance",
+    "names": ["Variance", "Variance of a random variable"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "Var(X) = E((X - E(X))^2)",
+        "variables": ["X"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "The variance $Var(X)$ of a continuous random variable $X$ can be calculated by $Var(X) = E((X - E(X))^2)$, i.e. by taking the expected value of the squared difference between $X$ and its expected value, which measures the average squared deviation of $X$ from its mean.",
+        "variables": ["X"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "Var[X] = E(X^2) - (E(X))^2",
+        "variables": ["X"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "The variance $Var(X)$ of a continuous random variable $X$ can be calculated by subtracting the square of the expected value of $X$ from the expected value of $X^2$: $Var[X] = E(X^2) - (E(X))^2$.",
+        "variables": ["X"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "Var[X] = \\int_{-\\infty}^{\\infty} (x - \\mathbb{E}[X])^2 dx",
+        "variables": ["X", "x"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "The variance $Var(X)$ of a continuous random variable $X$ can be calculated taking the integral over $(-\\infty, \\infty)$ of the squared difference between $X$ and its expected value: $Var(X) = \\int_{-\\infty}^{\\infty} (x - \\mathbb{E}[X])^2 dx$.",
+        "variables": ["X", "x"],
+        "names": ["Variance of a continuous random variable"]
+      },
+      {
+        "formula": "Var[X] = \\frac{1}{n} \\sum_{i=1}^n (x_i-\\bar{X})^2, \\bar{X} = \\frac{\\sum_{k=0}^n x_k}{n}",
+        "variables": ["x", "i", "k", "n"],
+        "names": ["Variance of a discrete random variable"]
+      },
+      {
+        "formula": "Given a discrete random variable $X$ with sample points $x_1, \\dots, x_n$ and sample mean \\bar{X} = \\frac{\\sum_{k=0}^n x_k}{n}, the discrete variance is given by: $Var[X] = \\frac{1}{n} \\sum_{i=1}^n (x_i-\\bar{X})^2$.",
+        "variables": ["x", "i", "k", "n"],
+        "names": ["Variance of a discrete random variable"]
+      },
+      {
+        "formula": "The formula $Var[X] = \\frac{1}{n} \\sum_{i=1}^n (x_i-\\bar{X})^2$ allows us to calculate the variance $Var[X]$ of a discrete random variable $X$ with sample points $x_1, \\dots, x_n$ and sample mean $\\bar{X}$.",
+        "variables": ["x", "i", "k", "n"],
+        "names": ["Variance of a discrete random variable"]
+      }
+    ],
+    "text_substitution": {"$Var(X)$ ": "", "\\frac{1}{n} \\sum_{i=1}^n (x_i-\\bar{X})^2": "\\frac{1}{n} \\sum_{i=1}^n x_i^2 - \\bar{x}^2"},
+    "no-versions": [
+      "Covariance",
+      "Expected Value",
+      {"text_substitution": {"continuous": ["discrete"], "discrete": ["continuous"], "expected value": ["variance", "covariance"], "sample mean": "sample variance", "integral": "sum"}}
+    ]
+  },
+  {
+    "id": "Covariance",
+    "names": ["Covariance", "Covariance of random variables"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "Cov[X,Y] = E[(X - E[X])(Y - E[Y])]",
+        "variables": ["X", "Y"]
+      },
+      {
+        "formula": "The formula $Cov[X,Y] = E[(X - E[X])(Y - E[Y])]$ measures the degree to which two random variables $X$ and $Y$ vary together.",
+        "variables": ["X", "Y"]
+      },
+      {
+        "formula": "Given two random variables $X$ and $Y$, the covariance $Cov[X,Y]$ can be calculated by $Cov[X,Y] = E[(X - E[X])(Y - E[Y])]$.",
+        "variables": ["X", "Y"]
+      },
+      {
+        "formula": "The covariance $Cov[X,Y]$ between two random variables $X$ and $Y$ can be found by evaluating the expression $E[(X - E[X])(Y - E[Y])]$, where $E[X]$ and $E[Y]$ denote the expected values of $X$ and $Y$, respectively.",
+        "variables": ["X", "Y"]
+      }
+    ],
+    "text_substitution": {"Cov[X,Y]": "Cov[Y,X]"},
+    "no-versions": [
+      "Variance",
+      "Expected Value",
+      {"text_substitution": {"random variables": "events", "covariance": ["variance", "expected value"], "$Cov[X,Y]$": "$Var[X,Y]$"}}
+    ]
+  },
+  {
+    "id": "Law of Large Numbers",
+    "names": ["Law of Large Numbers", "Expected Value approximation"],
+    "tag": "formula",
+    "versions": [
+     {
+        "formula": "\\lim_{n\\to\\infty} \\frac{1}{n} \\sum_{i=1}^n x_i = E(X)",
+        "variables": ["X", "x", "i", "n"]
+      },
+      {
+        "formula": "The sample mean $\\frac{1}{n} \\sum_{i=1}^n x_i$ of a discrete random variable $X$ with sample size $n$ converges to the expected value $E[X]$ as $n$ approaches infinity.",
+        "variables": ["X", "x", "i", "n"]
+      },
+      {
+        "formula": "As the sample size $n$ of a discrete random variable $X$ tends to infinity, the sample mean $\\frac{1}{n} \\sum_{i=1}^n x_i$ converges to the expected value $E[X]$.",
+        "variables": ["X", "x", "i", "n"]
+      },
+      {
+        "formula": "The sample mean converges to the expected value as the sample size becomes large, i.e. $E[X] = \\frac{1}{n} \\sum_{i=1}^n x_i$.",
+        "variables": ["X", "x", "i", "n"]
+      }
+    ],
+    "no-versions": [
+      "Expected Value",
+      "Stirling Approximation",
+      {"text_substitution": {"random variables": "events", "expected value": ["variance", "covariance"]}}
+    ]
+  },
+  {
+    "id": "Principle of Inclusion-Exclusion",
+    "names": ["Principle of Inclusion-Exclusion"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "|A\\cup B| = |A| + |B| - |A\\cap B|",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "|A\\cup B| + |A\\cap B|= |A| + |B|",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "For sets $A$ and $B$ we have $|A\\cup B| = |A| + |B| - |A\\cap B|$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "For sets $A$ and $B$ we have $|A\\cup B| + |A\\cap B| = |A| + |B|$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "The size of the union of two sets $A$ and $B$ is equal to the sum of the sizes of the individual sets, minus the size of their intersection: $|A\\cup B| = |A| + |B| - |A\\cap B|$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "formula": "Given sets $A$ and $B$, the size of the union of the sets is obtained by adding the sizes of the sets and then subtracting the size of their common elements: $|A \\cup B| = |A| + |B| - |A \\cap B|$.",
+        "variables": ["A", "B"]
+      }
+    ],
+    "no-versions": [
+      "Distributive Law of Sets",
+      "De Morgan Law",
+      {
+        "formula": "|A\\cup B| = |A| + |B| + |A\\cap B|",
+        "variables": ["A", "B"]
+      }
+    ]
+  },
+  {
+    "id": "Distributive Law of Sets",
+    "names": ["Distibutive Law of Sets", "Distributive Law in set theory", "Set Distributivity"],
+    "tag": "formula",
+    "versions": [
+      {
+        "names": ["Distributive law of union over intersections"],
+        "formula": "A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)",
+        "variables": ["A", "B", "C"]
+      },
+      {
+        "names": ["Distributive law of union over intersections"],
+        "formula": "The set union distributes over intersections, i.e. for sets $A$, $B$ and $C$, the equation $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$ holds true.",
+        "variables": ["A", "B", "C"]
+      },
+      {
+        "names": ["Distributive law of union over intersections"],
+        "formula": "The union of set $A$ with the intersection of sets $B$ and $C$ is equal to the intersection of the union of sets $A$ and $B$ with the union of sets $A$ and $C$: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$.",
+        "variables": ["A", "B", "C"]
+      },
+      {
+        "names": ["Distributive law of intersection over union"],
+        "formula": "A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)",
+        "variables": ["A", "B", "C"]
+      },
+      {
+        "names": ["Distributive law of intersection over union"],
+        "formula": "The intersection distributes over the union, i.e. for sets $A$, $B$ and $C$, the equation $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$ holds true.",
+        "variables": ["A", "B", "C"]
+      },
+      {
+        "names": ["Distributive law of intersection over union"],
+        "formula": "The intersection of set $A$ with the union of sets $B$ and $C$ is equal to the union of the intersection of sets $A$ and $B$ with the intersection of sets $A$ and $C$: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$.",
+        "variables": ["A", "B", "C"]
+      }
+    ],
+    "no-versions": [
+      "Principle of Inclusion-Exclusion",
+      "De Morgan Law",
+      {"text_substitution": {"intersection distributes over the union": "set union distributes over intersections", "set union distributes over intersections": "intersection distributes over the union", "of the intersection": "of the union", "of the union": "of the intersection"}}
+    ]
+  },
+  {
+    "id": "De Morgan Law",
+    "names": ["De Morgan's Law"],
+    "tag": "formula",
+    "versions": [
+      {
+        "names": ["De Morgan's First Law", "De Morgan's First Law (Logic Version)"],
+        "formula": "\\neg (x \\land y) = \\neg x \\lor \\neg y",
+        "variables": ["x", "y"],
+        "text": "The negation of a conjunction is equivalent to the disjunction of the negations of the individual terms"
+      },
+      {
+        "names": ["De Morgan's First Law", "De Morgan's First Law (Logic Version)"],
+        "formula": "The negation of a conjunction $x\\land y$ is equivalent to the disjunction of the negations of the individual terms $\\neg x \\lor \\neg y$: $\\neg (x \\land y) = \\neg x \\lor \\neg y$.",
+        "variables": ["x", "y"]
+      },
+      {
+        "names": ["De Morgan's First Law", "De Morgan's First Law (Logic Version)"],
+        "formula": "\\forall x,y: \\neg (x \\land y) = \\neg x \\lor \\neg y",
+        "variables": ["x", "y"],
+        "text": "The negation of a conjunction is equivalent to the disjunction of the negations of the individual terms"
+      },
+      {
+        "names": ["De Morgan's Second Law", "De Morgan's Second Law (Logic Version)"],
+        "formula": "\\neg (x \\lor y) = \\neg x \\land \\neg y",
+        "variables": ["x", "y"],
+        "text": "The negation of a conjunction is equivalent to the disjunction of the negations of the individual terms"
+      },
+      {
+        "names": ["De Morgan's Second Law", "De Morgan's Second Law (Logic Version)"],
+        "formula": "The negation of a conjunction $x \\lor y$ is equivalent to the disjunction of the negations of the individual terms $\\neg x \\land \\neg y$: $\\neg (x \\lor y) = \\neg x \\land \\neg y$.",
+        "variables": ["x", "y"]
+      },
+      {
+        "names": ["De Morgan's Second Law", "De Morgan's Second Law (Logic Version)"],
+        "formula": "\\forall x,y: \\neg (x \\lor y) = \\neg x \\land \\neg y",
+        "variables": ["x", "y"],
+        "text": "The negation of a conjunction is equivalent to the disjunction of the negations of the individual terms"
+      },
+      {
+        "names": ["De Morgan's First Law", "De Morgan's First Law (Set Version)"],
+        "formula": "\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}",
+        "variables": ["A", "B"],
+        "text": "The complement of the union of two sets is equal to the intersection of their complements"
+      },
+      {
+        "names": ["De Morgan's First Law", "De Morgan's First Law (Set Version)"],
+        "formula": "The complement of the union of two sets $A \\cup B$ is equal to the intersection of their complements $\\overline{A} \\cap \\overline{B}$: $\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}$.",
+        "variables": ["A", "B"]
+      },
+      {
+        "names": ["De Morgan's Second Law", "De Morgan's Second Law (Set Version)"],
+        "formula": "\\overline{A \\cap B} = \\overline{A} \\cup \\overline{B}",
+        "variables": ["A", "B"],
+        "text": "The complement of the intersection of two sets is equal to the union of their complements"
+      },
+      {
+        "names": ["De Morgan's Second Law", "De Morgan's Second Law (Set Version)"],
+        "formula": "The complement of the intersection of two sets $A \\cap B$ is equal to the union of their complements $\\overline{A} \\cup \\overline{B}$: $\\overline{A \\cap B} = \\overline{A} \\cup \\overline{B}$.",
+        "variables": ["A", "B"]
+      }
+    ],
+    "no-versions": [
+      "Principle of Inclusion-Exclusion",
+      "De Morgan Law",
+      {"text_substitution": {"complement": "negation", "A \\cap B": "A \\cup B", "A \\cup B": "A \\cap B", "x \\lor y": "x \\wedge y", "x \\land y": "x \\lor y"}}
+    ]
+  },
+  {
+    "id": "Harmonic Series",
+    "names": ["Harmonic Series"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = 1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + \\ldots",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n} = \\infty",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The infinite sum $\\sum_{n=1}^{\\infty} \\frac{1}{n}$ diverges, i.e. converges to $\\infty$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The series of reciprocal natural numbers (($1+1/2+1/3+1/4 + 1/5 + 1/6 + 1/7 + 1/8 +\\dots$), given by the infinite sum $\\sum_{n=1}^{\\infty} \\frac{1}{n}$, does not converge and grows infinitely large.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The sum of the reciprocals of positive integers from 1 to infinity ($1+1/2+1/3+1/4 + 1/5 + 1/6 + 1/7 + 1/8 +\\dots$), denoted by $\\sum_{n=1}^{\\infty} \\frac{1}{n}$, diverges, indicating that it does not have a finite value.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n}",
+        "variables": ["n"]
+      },
+      {
+        "formula": "1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + \\ldots"
+      }
+    ],
+    "text_substitution": {"1/4 + 1/5 + 1/6 + 1/7 + 1/8 +": "", "1/5 + 1/6 + 1/7 + 1/8 +": "", "1/6 + 1/7 + 1/8 +": "", "1/7 + 1/8 +": "", "1/8 +": ""},
+    "no-versions": [
+      "Taylor Series",
+      "Basel Problem",
+      "Riemann Zeta Function",
+      "Alternating Harmonic Series",
+      "Gregory-Leibniz Series",
+      {"text_substitution": {"not converge and grows infinitely large": "converge and grows finitely large", "diverges, indicating that it does not have a finite value": "converges, indicating that it does have a finite value"}}
+    ]
+  },
+  {
+    "id": "Basel Problem",
+    "names": ["Basel Problem", "Basel Series", "Euler's Sum of Reciprocals", "Euler's Sum of Inverse Squares"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\frac{1}{5^2} + \\frac{1}{6^2} + \\ldots = \\frac{\\pi^2}{6}",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\frac{1}{1^2} + \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\frac{1}{5^2} + \\frac{1}{6^2} + \\ldots = \\frac{\\pi^2}{6}",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The sum of the reciprocals of the square of natural numbers $\\sum_{n=1}^{\\infty} \\frac{1}{n^2}$ is equal to $\\frac{\\pi^2}{6}$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The sum of the squares of the reciprocal of natural numbers, $\\sum_{n=1}^{\\infty} \\frac{1}{n^2}$, evaluates to $\\frac{\\pi^2}{6}$ as determined by mathematical analysis.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The sum of the inverse squares of positive integers, denoted by $\\sum_{n=1}^{\\infty} \\frac{1}{n^2}$, has a finite value of $\\frac{\\pi^2}{6}$.",
+        "variables": ["n"]
+      }
+    ],
+    "text_substitution": {"\\frac{1}{4^2} + \\frac{1}{5^2} + \\frac{1}{6^2} +": "", "\\frac{1}{5^2} + \\frac{1}{6^2} +": "", "\\frac{1}{6^2} +": ""},
+    "no-versions": [
+      "Taylor Series",
+      "Harmonic Series",
+      "Riemann Zeta Function",
+      "Gregory-Leibniz Series",
+      {"text_substitution": {"positive": "negative", ", has a finite value of $\\frac{\\pi^2}{6}$": "diverges"}}
+    ]
+  },
+  {
+    "id": "Riemann Zeta Function",
+    "names": ["Riemann Zeta Function"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall z\\in\\mathbb{C}, \\Re(z)>1: \\zeta(z) = \\sum_{n=1}^{\\infty} \\frac{1}{n^z}",
+        "variables": ["n", "z"]
+      },
+      {
+        "formula": "For all complex number $z$ with $\\Re(z)>1$, the equation $\\zeta(z) = \\sum_{n=1}^{\\infty} \\frac{1}{n^z}$ holds true.",
+        "variables": ["n", "z"]
+      },
+            {
+        "formula": "For every complex number $z$ with real part greater than 1, the identity $\\zeta(z) = \\sum_{n=1}^{\\infty} \\frac{1}{n^z}$ holds.",
+        "variables": ["n", "z"]
+      },
+      {
+        "formula": "The equality $\\zeta(z) = \\sum_{n=1}^{\\infty} \\frac{1}{n^z}$ holds for all complex numbers $z$ with real part greater than 1",
+        "variables": ["n", "z"]
+      },
+      {
+        "formula": "Given a complex number $z$ with $\\Re(z) > 1$, the equation $\\zeta(z) = \\sum_{n=1}^{\\infty} \\frac{1}{n^z}$ holds true.",
+        "variables": ["n", "z"]
+      },
+      {
+        "names": ["Euler Product Formula"],
+        "formula": "\\zeta(s) = \\prod_{p \\text{ prime}} \\frac{1}{1-p^{-s}}",
+        "variables": ["s"]
+      },
+      {
+        "names": ["Euler Product Formula"],
+        "formula": "You can write $\\zeta(s)$ as infinite product over all prime numbers: $\\zeta(s) = \\prod_{p \\text{ prime}} \\frac{1}{1-p^{-s}}$.",
+        "variables": ["s"]
+      },
+      {
+        "names": ["Euler Product Formula"],
+        "formula": "For any complex number $s$ for which the Riemann zeta function is defined, the expression $\\zeta(s) = \\prod_{p \\text{ prime}} \\frac{1}{1-p^{-s}}$ holds, where the product is taken over all prime numbers.",
+        "variables": ["s"]
+      }
+    ],
+    "text_substitution": {"\\forall z\\in\\mathbb{C}, \\Re(z)>1:": ""},
+    "no-versions": [
+      "Taylor Series",
+      "Harmonic Series",
+      "Basel Problem",
+      "Gregory-Leibniz Series",
+      {"text_substitution": {"\\prod": "\\sum", "infinite": "finite", "prime": "not prime", "\\Re": "\\Im"}}
+    ]
+  },
+  {
+    "id": "Alternating Harmonic Series",
+    "names": ["Alternating Harmonic Series", "Natural Logarithm of 2"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = 1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\ldots = \\ln(2)",
+        "variables": ["n"]
+      },
+      {
+        "formula": "1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\frac{1}{5} + \\ldots = \\ln(2)"
+      },
+      {
+        "formula": "1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\ldots = \\ln(2)"
+      },
+      {
+        "formula": "1 - \\frac{1}{2} + \\frac{1}{3} - \\ldots = \\ln(2)"
+      },
+      {
+        "formula": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = \\ln(2)",
+        "variables": ["n"]
+      },
+      {
+        "formula": "When adding up all reciprocals of the natural number with alternating sign, this series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$ is equal to $\\ln(2)$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$ converges to the natural logarithm of $2$, i.e., $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = \\ln(2)$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "For the alternating harmonic series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$, the sum is equal to the natural logarithm of $2$, represented as $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = \\ln(2)$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The sum of the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$, where the reciprocals of natural numbers alternate in sign, is equal to the natural logarithm of $2$, i.e., $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} = \\ln(2)$.",
+        "variables": ["n"]
+      }
+    ],
+    "no-versions": [
+      "Taylor Series",
+      "Harmonic Series",
+      "Basel Problem",
+      "Gregory-Leibniz Series",
+      {"text_substitution": {"\\ln(2)": "\\log_{10}(2)", "n+1": "n"}}
+    ]
+  },
+  {
+    "id": "Gregory-Leibniz Series",
+    "names": ["Gregory-Leibniz Series", "Leibnitz Formula for Pi"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{\\pi}{4} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\frac{1}{9} - \\ldots"
+      },
+      {
+        "formula": "\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\frac{1}{9} - \\ldots",
+        "variables": ["n"]
+      },
+      {
+        "formula": "\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1} = \\frac{\\pi}{4}",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The series alternates between adding and subtracting fractions with an odd denominator, starting from 1: $\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1} = \\frac{\\pi}{4}$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The series $\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1}$, which alternates between adding and subtracting fractions with odd denominators starting from 1, converges to $\\frac{\\pi}{4}$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "When adding up the terms of the series $\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1}$, the sum converges to $\\frac{\\pi}{4}$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The series $\\sum_{n=0}^\\infty (-1)^n\\cdot\\frac{1}{2n+1}$, which alternates between adding and subtracting fractions with odd denominators starting from 1, converges to $\\frac{\\pi}{4}$.",
+        "variables": ["n"]
+      }
+    ],
+    "no-versions": [
+      "Taylor Series",
+      "Harmonic Series",
+      "Basel Problem",
+      "Alternating Harmonic Series",
+      {"text_substitution": {"odd": "even", "from 1": ["from 2", "from 0"]}}
+    ]
+  },
+  {
+    "id": "Binomial Series",
+    "names": ["Binomial Series"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall \\alpha, x \\in\\mathbb{C} > 0: |x| < 1 \\Rightarrow (1 + x)^{\\alpha} =1 + \\binom{\\alpha}{1}x + \\binom{\\alpha}{2}x^2 + \\binom{\\alpha}{3}x^3 + \\binom{\\alpha}{4}x^4 + \\binom{\\alpha}{5}x^5 + \\ldots",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["x", "y", "z", "a", "b", "c"]}
+      },
+      {
+        "formula": "\\forall \\alpha, x \\in\\mathbb{C} > 0: |x| < 1 \\Rightarrow (1 + x)^{\\alpha} = \\sum_{k=0}^\\infty \\binom{\\alpha}{k}x^k",
+        "variables": ["x", "\\alpha"],
+        "special_variable_candidates": {"\\alpha": ["x", "y", "z", "a", "b", "c"]}
+      },
+      {
+        "formula": "For all complex numbers $x$ and $\\alpha$ with $\\Re(x) > 0$, the expression $(1 + x)^\\alpha$ is equal to the sum $\\sum_{k=0}^\\infty \\binom{\\alpha}{k}x^k$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "The value of $(1 + x)^\\alpha$, where $x$ and $\\alpha$ are complex numbers with $\\Re(x) > 0$, can be expressed as the series $\\sum_{k=0}^\\infty \\binom{\\alpha}{k}x^k$.",
+        "variables": ["x", "n"]
+      },
+      {
+        "formula": "For any complex numbers $x$ and $\\alpha$ with $\\Re(x) > 0$, the expression $(1 + x)^\\alpha$ can be expanded as the sum $\\sum_{k=0}^\\infty \\binom{\\alpha}{k}x^k$ using binomial coefficients.",
+        "variables": ["x", "n"]
+      }
+    ],
+    "text_substitution": {"\\forall \\alpha, x \\in\\mathbb{C} > 0: |x| < 1 \\Rightarrow": ["|x| < 1 \\Rightarrow", ""], "\\binom{\\alpha}{3}x^3 + \\binom{\\alpha}{4}x^4 + \\binom{\\alpha}{5}x^5 +": ["\\binom{\\alpha}{4}x^4 + \\binom{\\alpha}{5}x^5 +", "\\binom{\\alpha}{5}x^5 +"]},
+    "no-versions": [
+      "Alternating Harmonic Series",
+      "Harmonic Series",
+      "Basel Problem",
+      "Gregory-Leibniz Series",
+      "Binomial Theorem",
+      "Binomial Coefficient Formula",
+      {"text_substitution": {"\\Re": "\\Im"}}
+    ]
+  },
+  {
+    "id": "Wallis Product",
+    "names": ["Wallis Product"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\frac{\\pi}{2} = \\frac{2}{1} \\cdot \\frac{2}{3} \\cdot \\frac{4}{3} \\cdot \\frac{4}{5} \\cdot \\frac{6}{5} \\cdot \\frac{6}{7} \\cdot \\ldots"
+      },
+      {
+        "formula": "\\frac{\\pi}{2} = \\left(\\frac{2}{1} \\cdot \\frac{2}{3}\\right) \\cdot \\left(\\frac{4}{3} \\cdot \\frac{4}{5}\\right) \\cdot \\left(\\frac{6}{5} \\cdot \\frac{6}{7}\\right) \\cdot \\ldots"
+      },
+      {
+        "formula": "\\prod_{n=1}^\\infty \\frac{4n^2}{4n^2-1} = \\pi/2",
+        "variables": ["n"]
+      },
+      {
+        "formula": "2*\\prod_{n=1}^\\infty \\frac{4n^2}{4n^2-1} = \\pi",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The value $\\pi/2$ can be obtained by this infinte product: $\\prod_{n=1}^\\infty \\frac{4n^2}{4n^2-1}$.",
+        "variables": ["n"]
+      },
+      {
+        "formula": "The product $\\prod_{n=1}^\\infty \\frac{4n^2}{4n^2-1}$ provides a way to approximate the value of $\\frac{\\pi}{2}$ using an infinite product involving the square of natural numbers.",
+        "variables": ["n"]
+      }
+    ],
+    "text_substitution": {"\\frac{4n^2}{4n^2-1}": "\\frac{(2n)^2}{(2n-1)*(2n+1)}"},
+    "no-versions": [
+      "Alternating Harmonic Series",
+      "Harmonic Series",
+      "Basel Problem",
+      "Gregory-Leibniz Series",
+      "Binomial Series",
+      {
+        "formula": "\\sum_{n=1}^\\infty \\frac{4n^2}{4n^2-1} = \\pi/2",
+        "variables": ["n"]
+      },
+      {"text_substitution": {"\\pi/2": "\\pi", "\\sum": "\\prod"}}
+    ]
+  },
+  {
+    "id": "Complex Number Sum",
+    "names": ["Complex number summation", "Complex number addition", "Addition of complex numbers",  "Sum of complex numbers"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: (a+b\\mathrm{i})+(c+d\\mathrm{i}) = (a+c) + (b+d)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d"]
+      },
+      {
+        "formula": "\\forall z,w\\in\\mathbb{C}, z=a+b\\mathrm{i}, w=c+d\\mathrm{i}: (a+b\\mathrm{i})+(c+d\\mathrm{i}) = (a+c) + (b+d)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      },
+      {
+        "formula": "(a_1+b_1\\mathrm{i})+(a_2+b_2\\mathrm{i}) = (a_1+a_2) + (b_1 + b_1)\\mathrm{i}",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: z_1=a+b\\mathrm{i}, z_2 = c+d\\mathrm{i} \\Rightarrow z_1 + z_2 = (a+c) + (b+d)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d", "z"]
+      },
+      {
+        "formula": "The sum of two complex numbers $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$ is defined as $z + w = (a + c) + (b+d)\\mathrm{i})$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      },
+      {
+        "formula": "Let $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$. Then, $z + w = (a+c) + (b+d)\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      },
+      {
+        "formula": "The sum of complex numbers $z$ and $w$ is $z + w = (a+c) + (b+d)\\mathrm{i}$, where $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      }
+    ],
+    "text_substitution": {"\\forall a,b,c,d\\in\\mathbb{R}: ": ""},
+    "no-versions": [
+      "Complex Number Division",
+      "Complex Number Multiplication",
+      "Complex Number Inverse",
+      {"text_substitution": {"complex": ["real", "natural", "rational", "whole"], "\\mathbb{R}": ["\\mathbb{N}", "\\mathbb{C}", "\\mathbb{Z}", "\\mathbb{Q}"], "(ac - bd)": "(ab - cd)", "sum": ["quotient", "product"]}}
+    ]
+  },
+  {
+    "id": "Complex Number Multiplication",
+    "names": ["Complex number multiplication", "Multiplication of complex numbers"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: (a+b\\mathrm{i})*(c+d\\mathrm{i}) = (ac - bd) + (ad + bc)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d"]
+      },
+      {
+        "formula": "\\forall z,w\\in\\mathbb{C}, z=a+b\\mathrm{i}, w=c+d\\mathrm{i}: (a+b\\mathrm{i})*(c+d\\mathrm{i}) = (ac - bd) + (ad + bc)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      },
+      {
+        "formula": "(a_1+b_1\\mathrm{i})*(a_2+b_2\\mathrm{i}) = (a_1a_2 - b_1b_2) + (a_1b_2 + b_1a_2)\\mathrm{i}",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: z_1=a+b\\mathrm{i}, z_2 = c+d\\mathrm{i} \\Rightarrow z_1 * z_2 = (ac - bd) + (ad + bc)\\mathrm{i}",
+        "variables": ["a", "b", "c", "d", "z"]
+      },
+      {
+        "formula": "The multiplication of two complex numbers $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$ is defined as $z \\cdot w = (a + b\\mathrm{i}) \\cdot (c + d\\mathrm{i}) = (ac - bd) + (ad + bc)\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      },
+      {
+        "formula": "Let $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$. Then, $z \\cdot w = (ac - bd) + (ad + bc)\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      },
+      {
+        "formula": "The product of complex numbers $z$ and $w$ is $z \\cdot w = (ac - bd) + (ad + bc)\\mathrm{i}$, where $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "w", "z"]
+      }
+    ],
+    "text_substitution": {"\\forall a,b,c,d\\in\\mathbb{R}: ": ""},
+    "no-versions": [
+      "Complex Number Division",
+      "Complex Number Sum",
+      "Complex Number Inverse",
+      {"text_substitution": {"complex": ["real", "natural", "rational", "whole"], "\\mathbb{R}": ["\\mathbb{N}", "\\mathbb{C}", "\\mathbb{Z}", "\\mathbb{Q}"], "(ac - bd)": "(ab - cd)", "product": ["quotient", "sum"]}}
+    ]
+  },
+  {
+    "id": "Complex Number Division",
+    "names": ["Complex number division", "definition of complex number division"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: \\frac{a+b\\mathrm{i}}{c+d\\mathrm{i}} =  \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}",
+        "variables": ["a", "b", "c", "d"]
+      },
+      {
+        "formula": "\\forall z,w\\in\\mathbb{C}, z=a+b\\mathrm{i}, w=c+d\\mathrm{i}: \\frac{a+b\\mathrm{i}}{c+d\\mathrm{i}} =  \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      },
+      {
+        "formula": "\\frac{a_1+b_1\\mathrm{i}}{a_2+b_2\\mathrm{i}} =  \\frac{(a_1a_2 + b_1b_2) + (b_1a_2 - a_1b_2)i}{a_2^2 + b_2^2}",
+        "variables": ["a", "b"]
+      },
+      {
+        "formula": "\\forall a,b,c,d\\in\\mathbb{R}: z_1=a+b\\mathrm{i}, z_2 = c+d\\mathrm{i} \\Rightarrow \\frac{z_1}{z_2} =  \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}",
+        "variables": ["a", "b", "c", "d", "z"]
+      },
+      {
+        "formula": "The division of two complex numbers $z = a + bi$ and $w = c + di$ is defined as $\\frac{z}{w} = \\frac{(a + bi)}{(c + di)} = \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$.",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      },
+      {
+        "formula": "Let $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$. Then, $\\frac{z}{w} = \\frac{(a + bi)}{(c + di)} = \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$.",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      },
+      {
+        "formula": "The quotient of complex numbers $z$ and $w$ is $\\frac{z}{w} = \\frac{(a + bi)}{(c + di)} = \\frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$, where $z = a + b\\mathrm{i}$ and $w = c + d\\mathrm{i}$.",
+        "variables": ["a", "b", "c", "d", "z", "w"]
+      }
+    ],
+    "text_substitution": {"\\forall a,b,c,d\\in\\mathbb{R}: ": ""},
+    "no-versions": [
+      "Complex Number Multiplication",
+      "Complex Number Sum",
+      "Complex Number Inverse",
+      {"text_substitution": {"complex": ["real", "natural", "rational", "whole"], "\\mathbb{R}": ["\\mathbb{N}", "\\mathbb{C}", "\\mathbb{Z}", "\\mathbb{Q}"], "(ac - bd)": "(ab - cd)", "quotient": ["product", "sum"]}}
+    ]
+  },
+  {
+    "id": "Complex Number Inverse",
+    "names": ["Complex number inverse", "Inverse of a complex number"],
+    "tag": "formula",
+    "versions": [
+      {
+        "formula": "\\forall z\\in\\mathbb{C}: z=a+b\\mathrm{i} \\Rightarrow z^{-1}= \\frac{a}{a^2 + b^2} - \\frac{b}{a^2 + b^2}\\mathrm{i}",
+        "variables": ["a", "b", "z"]
+      },
+      {
+        "formula": "\\forall z\\in\\mathbb{C}: z=a+b\\mathrm{i} \\Rightarrow z^{-1}= \\frac{a-b\\mathrm{i}}{a^2 + b^2}",
+        "variables": ["a", "b", "z"]
+      },
+      {
+        "formula": "\\forall a,b\\in\\mathbb{R}: (a+b\\mathrm{i})^{-1}= \\frac{a-b\\mathrm{i}}{a^2 + b^2}",
+        "variables": ["a", "b", "z"]
+      },
+      {
+        "formula": "The inverse of a complex number $z = a + bi$ is defined as $z^{-1} = \\frac{a-b\\mathrm{i}}{a^2 + b^2}$.",
+        "variables": ["a", "b", "z"]
+      },
+      {
+        "formula": "Let $z = a + b\\mathrm{i}$ be a complex number. Then, $z^{-1} = \\frac{a-b\\mathrm{i}}{a^2 + b^2}$.",
+        "variables": ["a", "b", "z"]
+      },
+      {
+        "formula": "The inverse of a complex number $z$ is $z^{-1} = \\frac{a-b\\mathrm{i}}{a^2 + b^2}$, where $z = a + b\\mathrm{i}$.",
+        "variables": ["a", "b", "z"]
+      }
+    ],
+    "text_substitution": {"\\forall a,b,c,d\\in\\mathbb{R}: ": "", "\\frac{a-b\\mathrm{i}}{a^2 + b^2}": "\\frac{a}{a^2 + b^2} - \\frac{b}{a^2 + b^2}\\mathrm{i}"},
+    "no-versions": [
+      "Complex Number Multiplication",
+      "Complex Number Sum",
+      "Complex Number Inverse",
+      {"text_substitution": {"complex": ["real", "natural", "rational", "whole"], "\\mathbb{R}": ["\\mathbb{N}", "\\mathbb{C}", "\\mathbb{Z}", "\\mathbb{Q}"], "(ac - bd)": "(ab - cd)", "quotient": ["product", "sum"]}}
+    ]
+  }
+]
