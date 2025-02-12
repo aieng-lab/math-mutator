@@ -35,7 +35,7 @@ conda install pip
 pip install -r requirements.txt
 ```
 
-#### 3. Install `jdrechsel/sympy-random-LaTeX`:
+#### 3. Install `jdrechsel13/sympy-random-LaTeX`:
 ```bash
 cd .. # go back to the root directory
 git clone https://github.com/jdrechsel13/sympy-random-LaTeX.git
