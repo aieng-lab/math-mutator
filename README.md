@@ -1,7 +1,9 @@
-# TODO Introducing a Novel Framework for Modifying Mathematical Formulas: Developing Specialized Datasets for Language Model Training
+# MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training
 > Jonathan Drechsel, Anja Reusch, Steffen Herbold
 
-This repository contains the official source code for the dataset generation of TODO
+This repository contains the official source code for the dataset generation of [MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training](todo).
+
+This repository contains the code for generating the datasets, including preprocessing of the original [AMPS](https://github.com/hendrycks/math) and [ARQMath](https://github.com/ARQMath/ARQMathCode) datasets, formula filtering, extraction, validation, and more. The framework responsible for generating equivalent and falsified versions of mathematical formulas is available in [this SymPy fork](https://github.com/jdrechsel13/sympy-random-LaTeX).
 
 ## Install
 
@@ -73,3 +75,9 @@ python -c "import sympy; import post_reader_record; print('All packages are inst
   - Generates the MT dataset as `data/math-text.csv`
   - Due to a long run time of that script (several days), specifically for ARQMath, you can use `generate_math_text_arqmath_asynch` to generate the data in parallel. You need to combine the data together afterwards.
   
+  
+## CITATION
+If you use this code or the provided datasets, please cite the following paper:
+```bibtex
+TODO
+```
