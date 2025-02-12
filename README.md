@@ -6,12 +6,12 @@ This repository contains the official source code for the dataset generation of 
 This repository contains the code for generating the datasets, including preprocessing of the original [AMPS](https://github.com/hendrycks/math) and [ARQMath](https://github.com/ARQMath/ARQMathCode) datasets, formula filtering, extraction, validation, and more. The framework responsible for generating equivalent and falsified versions of mathematical formulas is available in [this SymPy fork](https://github.com/jdrechsel13/sympy-random-LaTeX).
 The generated datasets are available on [Hugging Face](https://huggingface.co/datasets/ddrg):
 
-| **Dataset** | **Description** | **Example(s)** |
-|------------|---------------|---------------|
-| [MF](https://huggingface.co/datasets/ddrg/math_formulas) | Mathematical formulas with high variance | $x\cdot x^N = x^{1 + N}$  <br> $(a - b)/(b*a) = -1/a + \frac{1}{b}$ |
-| [MT](https://huggingface.co/datasets/ddrg/math_text) | Texts combining natural language and mathematical formulas | Identify $\sum_{n=0}^\infty (y_n - L)$ where $y_{n + 1} = (1 + y_n)^{\frac13}$ and $L^3 = L + 1$. Let $y > 2$ and let $f(y) = (1 + y)^{\frac13}$. Let $f^n(y)$ be the $n $ th iterate of $f(y)$. Let $ L $ be ... |
-| [NMF](https://huggingface.co/datasets/ddrg/named_math_formulas) | High variance formulas of famous named identities | **Name:** Pythagorean Thm., **Formula:** $c^2=b^2+a^2$ <br> **Name:** Binomial Formula, **Formula:** $(\alpha + z)^2 = z^2 + \alpha^2 + 2\cdot \alpha \cdot z$ |
-| [MFR](https://huggingface.co/datasets/ddrg/math_formula_retrieval) | Pairs of formulas with labels indicating identical or different mathematical concepts | **Formula 1:** $1\cdot 2\cdot 3 \cdot \ldots \cdot n = n!$, **Formula 2:** $m!\coloneqq \prod_{k=1}^m k$, **Label:** Equivalent <br> **Formula 1:** $a^2+b^2=c^2$, **Formula 2:** $a^2+2^b=c^2$, **Label:** Not Equivalent |
+| **Dataset**                                                                                 | **Description** | **Example(s)** |
+|---------------------------------------------------------------------------------------------|---------------|---------------|
+| [Math Formulas (MF)](https://huggingface.co/datasets/ddrg/math_formulas)                    | Mathematical formulas with high variance | $x\cdot x^N = x^{1 + N}$  <br> $(a - b)/(b*a) = -1/a + \frac{1}{b}$ |
+| [Math Text (MT)](https://huggingface.co/datasets/ddrg/math_text)                            | Texts combining natural language and mathematical formulas | Identify $\sum_{n=0}^\infty (y_n - L)$ where $y_{n + 1} = (1 + y_n)^{\frac13}$ and $L^3 = L + 1$. Let $y > 2$ and let $f(y) = (1 + y)^{\frac13}$. Let $f^n(y)$ be the $n $ th iterate of $f(y)$. Let $ L $ be ... |
+| [Named Math Formulas (NMF)](https://huggingface.co/datasets/ddrg/named_math_formulas)       | High variance formulas of famous named identities | **Name:** Pythagorean Thm., **Formula:** $c^2=b^2+a^2$ <br> **Name:** Binomial Formula, **Formula:** $(\alpha + z)^2 = z^2 + \alpha^2 + 2\cdot \alpha \cdot z$ |
+| [Math Formula Retrieval (MFR)](https://huggingface.co/datasets/ddrg/math_formula_retrieval) | Pairs of formulas with labels indicating identical or different mathematical concepts | **Formula 1:** $1\cdot 2\cdot 3 \cdot \ldots \cdot n = n!$, **Formula 2:** $m!\coloneqq \prod_{k=1}^m k$, **Label:** Equivalent <br> **Formula 1:** $a^2+b^2=c^2$, **Formula 2:** $a^2+2^b=c^2$, **Label:** Not Equivalent |
 
 ## Install
 
