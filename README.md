@@ -4,29 +4,58 @@
 This repository contains the official source code for the dataset generation of TODO
 
 ## Install
+
+### Prerequisites
+- Install [conda](https://docs.conda.io/en/latest/miniconda.html) or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+### Installation Steps
+
+#### 1. Clone the repository
 ```bash
 git clone math-mutator
-git clone https://github.com/jdrechsel13/sympy-random-LaTeX.git
 cd math-mutator
-conda create --file environment.yml # todo?
-conda activate mamut
-conda install pip
-
-# add sympy-random-LaTeX to the PYTHONPATH
-cd ../sympy-random-LaTeX
-pip install -r requirements.txt
-pip install -e .
-export PYTHONPATH=$PYTHONPATH:$(pwd) # todo check
-cd ../math-mutator
-
-
-git clone https://github.com/ARQMath/ARQMathCode.git arqmath
-./arqmath/bin/install
 ```
 
-todo arqmath
+#### 2. Create a Conda Environment:
+```bash
+conda create --name mamut python=3.10
+conda activate mamut
+conda install pip
+pip install -r requirements.txt
+```
 
-add arqmath to PYTHONPATH
+#### 3. Install `jdrechsel/sympy-random-LaTeX`:
+```bash
+cd .. # go back to the root directory
+git clone https://github.com/jdrechsel13/sympy-random-LaTeX.git
+cd sympy-random-LaTeX
+pip install -r requirements.txt
+pip install -e . # install this sympy fork in editable mode (alternative: add the sympy-random-LaTeX path to the PYTHONPATH)
+cd .. # go back to the root directory
+```
+#### 4. Clone `ARQMathCode`:
+```bash
+git clone https://github.com/ARQMath/ARQMathCode.git
+```
+#### 5. Add ARQMath to the `PYTHONPATH`:
+##### Windows
+Add the ARQMathCode directory to the system's `PYTHONPATH`: 
+```bash
+set PYTHONPATH=%PYTHONPATH%;C:\path\to\ARQMathCode
+```
+To make it permanent, edit the `Environment Variables` in the system settings.
+##### Linux/maxOS
+Append the path to your shell configuration file (e.g., `~/.bashrc`, `~/.bash_profile`, `~/.zshrc`):
+```bash
+export PYTHONPATH="$PYTHONPATH:/path/to/ARQMathCode"
+source ~/.bashrc # or ~/.bash_profile, ~/.zshrc
+```
+
+#### 6. Verification [Optional]
+```bash
+python -c "import sympy; import post_reader_record; print('All packages are installed correctly')"
+```
 
 ## Data Generation
 
