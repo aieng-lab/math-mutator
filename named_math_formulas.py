@@ -258,8 +258,6 @@ class Formulas:
         elements_at_least_twice = [element for element, count in element_counts.items() if count >= 2]
 
         print("Create no-versions mapping")
-        #with Pool(processes=num_cpu) as pool:
-         #   pool.map(update_formula_no_versions_(mapping), formulas)
         for formula in formulas:
             update_formula_no_versions_(mapping)(formula)
             formula.set_not_allowed_names(elements_at_least_twice)

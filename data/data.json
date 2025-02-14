@@ -162,7 +162,7 @@
         "variables": ["a", "b", "c"]
       },
       {
-        "formula": "\\forall a,b,c\\in\\mathbb{R}: a^2 + b^2 = c^2",
+        "formula": "In any right-angled triangle, where the legs have lengths $a$ and $b$, and the hypotenuse has length $c$, the equation $a^2 + b^2 = c^2$ holds.",
         "variables": ["a", "b", "c"]
       },
       {
