@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-message: If you use this software, please cite both the article from preferred-citation and the software itself.
+message: If you use this software, please cite both the article from the preferred-citation and the software itself.
 authors:
-  - family-names: Jonathan Drechsel
-    given-names: Anja Reusch
+  - family-names: Drechsel
+    given-names: Jonathan
+  - family-names: Reusch
+    given-names: Anja
+  - family-names: Herbold
+    given-names: Steffen
 title: 'MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training'
 version: 1.0.0
 url: https://arxiv.org/abs/2502.20855
 date-released: '2025-03-03'
 preferred-citation:
   authors:
-    - family-names: Jonathan Drechsel
-      given-names: Anja Reusch
+    - family-names: Drechsel
+      given-names: Jonathan
+    - family-names: Reusch
+      given-names: Anja
+    - family-names: Herbold
+      given-names: Steffen
   title: 'MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training'
   url: https://arxiv.org/abs/2502.20855
-  type: generic
+  type: article
   year: '2025'
-  conference: {}
-  publisher: {}
+  publisher: arXiv
+
