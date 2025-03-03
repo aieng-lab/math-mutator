@@ -1,7 +1,7 @@
 # MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training
 > Jonathan Drechsel, Anja Reusch, Steffen Herbold
 
-This repository contains the official source code for the dataset generation of [MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training](todo).
+This repository contains the official source code for the dataset generation of [MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training](https://arxiv.org/abs/2502.20855).
 
 This repository contains the code for generating the datasets, including preprocessing of the original [AMPS](https://github.com/hendrycks/math) and [ARQMath](https://github.com/ARQMath/ARQMathCode) datasets, formula filtering, extraction, validation, and more. The framework responsible for generating equivalent and falsified versions of mathematical formulas is available in [this SymPy fork](https://github.com/jdrechsel13/sympy-random-LaTeX).
 The generated datasets are available on [Hugging Face](https://huggingface.co/datasets/ddrg):
@@ -87,5 +87,13 @@ python -c "import sympy; import post_reader_record; print('All packages are inst
 ## CITATION
 If you use this code or the provided datasets, please cite the following paper:
 ```bibtex
-TODO
+@misc{drechsel2025mamutnovelframeworkmodifying,
+      title={{MAMUT}: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training}, 
+      author={Jonathan Drechsel and Anja Reusch and Steffen Herbold},
+      year={2025},
+      eprint={2502.20855},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.20855}, 
+}
 ```
