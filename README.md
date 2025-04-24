@@ -16,6 +16,17 @@ The generated datasets are available on [Hugging Face](https://huggingface.co/da
 | [Named Math Formulas (NMF)](https://huggingface.co/datasets/ddrg/named_math_formulas)       | High variance formulas of famous named identities | **Name:** Pythagorean Thm., **Formula:** $c^2=b^2+a^2$ <br> **Name:** Binomial Formula, **Formula:** $(\alpha + z)^2 = z^2 + \alpha^2 + 2\cdot \alpha \cdot z$ |
 | [Math Formula Retrieval (MFR)](https://huggingface.co/datasets/ddrg/math_formula_retrieval) | Pairs of formulas with labels indicating identical or different mathematical concepts | **Formula 1:** $1\cdot 2\cdot 3 \cdot \ldots \cdot n = n!$, **Formula 2:** $m!\coloneqq \prod_{k=1}^m k$, **Label:** Equivalent <br> **Formula 1:** $a^2+b^2=c^2$, **Formula 2:** $a^2+2^b=c^2$, **Label:** Not Equivalent |
 
+### Quick Links
+
+- [Mathematical Pre-Training Framework](https://github.com/aieng-lab/transformer-math-pretraining)
+- [Mathematical Evaluation Framework](https://github.com/aieng-lab/transformer-math-evaluation)
+- Mathematical Models generated based on MAMUT-enhanced data:
+  - [ddrg/math_structure_bert](https://huggingface.co/ddrg/math_structure_bert)
+  - [ddrg/math_structure_deberta](https://huggingface.co/ddrg/math_structure_deberta)
+  - [ddrg/mamut_math_pretrained_bert](todo) (best mathematical model based on our evaluation)
+  - [ddrg/mamut_MathBERT]
+  - [ddrg/mamut_MathBERT_custom]
+
 ## Install
 
 ### Prerequisites
@@ -26,7 +37,7 @@ The generated datasets are available on [Hugging Face](https://huggingface.co/da
 
 #### 1. Clone the repository
 ```bash
-git clone math-mutator
+git clone https://github.com/aieng-lab/math-mutator
 cd math-mutator
 ```
 
@@ -55,7 +66,7 @@ git clone https://github.com/ARQMath/ARQMathCode.git
 ##### Windows
 Add the ARQMathCode directory to the system's `PYTHONPATH`: 
 ```bash
-set PYTHONPATH=%PYTHONPATH%;C:\path\to\ARQMathCode
+set PYTHONPATH=%PYTHONPATH%;/path/to/ARQMathCode
 ```
 To make it permanent, edit the `Environment Variables` in the system settings.
 ##### Linux/maxOS
@@ -69,6 +80,9 @@ source ~/.bashrc # or ~/.bash_profile, ~/.zshrc
 ```bash
 python -c "import sympy; import post_reader_record; print('All packages are installed correctly')"
 ```
+
+### 7. Setup for Experiments [Optional]
+See below for the setup of the experiments.
 
 ## Data Generation
 
@@ -86,9 +100,35 @@ python -c "import sympy; import post_reader_record; print('All packages are inst
   - Generates the MT dataset as `data/math-text.csv`
   - Due to a long run time of that script (several days), specifically for ARQMath, you can use `generate_math_text_arqmath_asynch` to generate the data in parallel. You need to combine the data together afterwards.
   
-  
+
+## Experimental Results Reproduction
+
+The experiments are split into pre-training mathematical models and evaluating them based on an IR fine-tuning task.
+
+### Mathematical Pre-Training
+
+- Install [Mathematical Pre-Training Framework](https://github.com/aieng-lab/transformer-math-pretraining)
+- Run `transformer-math-pretraining/scripts/ma.sh` to pre-train mathematical models.
+  - Should run on a server with 8 A100 GPUs
+  - Rough Time Estimate: 12 hours per Pre-Training used (i.e. 48 hours for MF+MT+NMF+MFR)
+
+### Mathematical Evaluation
+
+- Install [Mathematical Evaluation Framework](https://github.com/aieng-lab/transformer-math-evaluation)
+- Run `transformer-math-evaluation/scripts/mamut.sh` to compute all fine-tuning results reported in the paper.
+  - Copy the pre-trained models to the folder specified in the script
+- Use the methods in `transformer-math-evaluation/src/export/nmf.py` to generate the tables and figures reporting the results.
+
+## Implementation Details
+
+- `sympy-random-LaTeX/generator.py` contains the core functionality of MAMUT, implementing the version generation interface and falsifying strategies
+- Internally, the strategies Random and Manual (known from the MAMUT paper) are implemented as single strategy (`strategy_random_formula`) 
+  - These can be distinguished based on the provided meta data (`strategy_random_formula` contains a json dict, entry `no_version` is True for Manual and False for Random)
+- The randomized LatexPrinter can be found in `sympy-random-LaTeX/sympy/printing/latex.py` 
+  - The randomization settings can be found in `sympy-random-LaTeX/sympy/settings.py`
+
 ## CITATION
-If you use this code or the provided datasets, please cite the following paper:
+If you use this code, generated datasets, or published mathematical models, please cite the following paper:
 ```bibtex
 @misc{drechsel2025mamutnovelframeworkmodifying,
       title={{MAMUT}: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training}, 
