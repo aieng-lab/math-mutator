@@ -20,12 +20,17 @@ The generated datasets are available on [Hugging Face](https://huggingface.co/da
 
 - [Mathematical Pre-Training Framework](https://github.com/aieng-lab/transformer-math-pretraining)
 - [Mathematical Evaluation Framework](https://github.com/aieng-lab/transformer-math-evaluation)
+- Mathematical Datasets
+  - [ddrg/math_formulas](https://huggingface.co/datasets/ddrg/math_formulas): Math Formulas (MF)
+  - [ddrg/math_text](https://huggingface.co/datasets/ddrg/math_text): Math Text (MT)
+  - [ddrg/named_math_formulas](https://huggingface.co/datasets/ddrg/named_math_formulas): Named Math Formulas (NMF)
+  - [ddrg/math_formula_retrieval](https://huggingface.co/datasets/ddrg/math_formula_retrieval): Math Formula Retrieval (MFR)
 - Mathematical Models generated based on MAMUT-enhanced data:
-  - [ddrg/math_structure_bert](https://huggingface.co/ddrg/math_structure_bert)
-  - [ddrg/math_structure_deberta](https://huggingface.co/ddrg/math_structure_deberta)
-  - [ddrg/mamut_math_pretrained_bert](todo) (best mathematical model based on our evaluation)
-  - [ddrg/mamut_MathBERT]
-  - [ddrg/mamut_MathBERT_custom]
+  - [aieng-lab/bert-base-cased-mamut](https://huggingface.co/aieng-lab/bert-base-cased-mamut): based on [bert-base-cased](https://huggingface.co/bert-base-cased) 
+  - [aieng-lab/math_pretrained_bert-mamut](https://huggingface.co/aieng-lab/math_pretrained_bert-mamut): based on [AnReu/math_pretrained_bert](https://huggingface.co/AnReu/math_pretrained_bert)  (best mathematical model based on our evaluation)
+  - [aieng-lab/MathBERT-mamut](https://huggingface.co/aieng-lab/MathBERT-mamut): based on [tbs17/MathBERT](https://huggingface.co/tbs17/MathBERT)
+  - [[ddrg/math_structure_deberta](https://huggingface.co/ddrg/math_structure_deberta): mathematical further pretrained based on [microsoft/deberta-v3-base](https://huggingface.co/microsoft/deberta-v3-base) - not published as part of the MAMUT paper, but trained with the same data and framework]
+
 
 ## Install
 
@@ -58,6 +63,7 @@ pip install -r requirements.txt
 pip install -e . # install this sympy fork in editable mode (alternative: add the sympy-random-LaTeX path to the PYTHONPATH)
 cd .. # go back to the root directory
 ```
+
 #### 4. Clone `ARQMathCode`:
 ```bash
 git clone https://github.com/ARQMath/ARQMathCode.git
@@ -82,7 +88,7 @@ python -c "import sympy; import post_reader_record; print('All packages are inst
 ```
 
 ### 7. Setup for Experiments [Optional]
-See below for the setup of the experiments.
+See below for the setup of the experiments (Mathematical Pretraining and Evaluation).
 
 ## Data Generation
 
@@ -107,7 +113,7 @@ The experiments are split into pre-training mathematical models and evaluating t
 
 ### Mathematical Pre-Training
 
-- Install [Mathematical Pre-Training Framework](https://github.com/aieng-lab/transformer-math-pretraining)
+- Install [Mathematical Pretraining Framework](https://github.com/aieng-lab/transformer-math-pretraining)
 - Run `transformer-math-pretraining/scripts/ma.sh` to pre-train mathematical models.
   - Should run on a server with 8 A100 GPUs
   - Rough Time Estimate: 12 hours per Pre-Training used (i.e. 48 hours for MF+MT+NMF+MFR)
