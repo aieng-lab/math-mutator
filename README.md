@@ -27,7 +27,7 @@ The generated datasets are available on [Hugging Face](https://huggingface.co/da
   - [ddrg/math_formula_retrieval](https://huggingface.co/datasets/ddrg/math_formula_retrieval): Math Formula Retrieval (MFR)
 - Mathematical Models generated based on MAMUT-enhanced data:
   - [aieng-lab/bert-base-cased-mamut](https://huggingface.co/aieng-lab/bert-base-cased-mamut): based on [bert-base-cased](https://huggingface.co/bert-base-cased) 
-  - [aieng-lab/math_pretrained_bert-mamut](https://huggingface.co/aieng-lab/math_pretrained_bert-mamut): based on [AnReu/math_pretrained_bert](https://huggingface.co/AnReu/math_pretrained_bert)  (best mathematical model based on our evaluation)
+  - [aieng-lab/math_pretrained_bert-mamut](https://huggingface.co/aieng-lab/math_pretrained_bert-mamut): based on [AnReu/math_pretrained_bert](https://huggingface.co/AnReu/math_pretrained_bert)  (this MAMUT model performs best based on our evaluation)
   - [aieng-lab/MathBERT-mamut](https://huggingface.co/aieng-lab/MathBERT-mamut): based on [tbs17/MathBERT](https://huggingface.co/tbs17/MathBERT)
   - [[ddrg/math_structure_deberta](https://huggingface.co/ddrg/math_structure_deberta): mathematical further pretrained based on [microsoft/deberta-v3-base](https://huggingface.co/microsoft/deberta-v3-base) - not published as part of the MAMUT paper, but trained with the same data and framework]
 
