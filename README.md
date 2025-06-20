@@ -6,7 +6,7 @@
 
 This repository contains the official source code for the dataset generation of [MAMUT: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training](https://arxiv.org/abs/2502.20855).
 
-This repository contains the code for generating the datasets, including preprocessing of the original [AMPS](https://github.com/hendrycks/math) and [ARQMath](https://github.com/ARQMath/ARQMathCode) datasets, formula filtering, extraction, validation, and more. The framework responsible for generating equivalent and falsified versions of mathematical formulas is available in [this SymPy fork](https://github.com/jdrechsel13/sympy-random-LaTeX).
+This repository contains the code for generating the datasets, including preprocessing of the original [AMPS](https://github.com/hendrycks/math) and [ARQMath](https://github.com/ARQMath/ARQMathCode) datasets, formula filtering, extraction, validation, and more. The framework responsible for generating equivalent and falsified versions of mathematical formulas is available in [this SymPy fork](https://github.com/aieng-lab/sympy-random-LaTeX).
 The generated datasets are available on [Hugging Face](https://huggingface.co/datasets/ddrg):
 
 | **Dataset**                                                                                 | **Description** | **Example(s)** |
@@ -20,6 +20,7 @@ The generated datasets are available on [Hugging Face](https://huggingface.co/da
 
 - [Mathematical Pre-Training Framework](https://github.com/aieng-lab/transformer-math-pretraining)
 - [Mathematical Evaluation Framework](https://github.com/aieng-lab/transformer-math-evaluation)
+- [Randomized LaTeX SymPy Fork](https://github.com/aieng-lab/sympy-random-LaTeX)
 - Mathematical Datasets
   - [ddrg/math_formulas](https://huggingface.co/datasets/ddrg/math_formulas): Math Formulas (MF)
   - [ddrg/math_text](https://huggingface.co/datasets/ddrg/math_text): Math Text (MT)
@@ -54,10 +55,10 @@ conda install pip
 pip install -r requirements.txt
 ```
 
-#### 3. Install `jdrechsel13/sympy-random-LaTeX`:
+#### 3. Install `aieng-lab/sympy-random-LaTeX`:
 ```bash
 cd .. # go back to the root directory
-git clone https://github.com/jdrechsel13/sympy-random-LaTeX.git
+git clone https://github.com/aieng-lab/sympy-random-LaTeX.git
 cd sympy-random-LaTeX
 pip install -r requirements.txt
 pip install -e . # install this sympy fork in editable mode (alternative: add the sympy-random-LaTeX path to the PYTHONPATH)
