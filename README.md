@@ -137,13 +137,13 @@ The experiments are split into pre-training mathematical models and evaluating t
 ## CITATION
 If you use this code, generated datasets, or published mathematical models, please cite the following paper:
 ```bibtex
-@misc{drechsel2025mamutnovelframeworkmodifying,
-      title={{MAMUT}: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training}, 
-      author={Jonathan Drechsel and Anja Reusch and Steffen Herbold},
-      year={2025},
-      eprint={2502.20855},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.20855}, 
+@article{
+  drechsel2025mamut,
+  title={{MAMUT}: A Novel Framework for Modifying Mathematical Formulas for the Generation of Specialized Datasets for Language Model Training},
+  author={Jonathan Drechsel and Anja Reusch and Steffen Herbold},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2025},
+  url={https://openreview.net/forum?id=khODmRpQEx}
 }
 ```
