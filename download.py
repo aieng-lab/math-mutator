@@ -89,7 +89,7 @@ def download_amps(path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', default=f'{this_dir}/data')
-    parser.add_argument('--amps', type=bool, default=False)
+    parser.add_argument('--amps', type=bool, default=True)
     parser.add_argument('--arqmath', type=bool, default=True)
     args = parser.parse_args()
 
