@@ -54,7 +54,7 @@ def download_arqmath(path):
 
 
 def download_amps(path):
-    id = 'https://drive.google.com/file/d/%s/view?usp=drive_link' % id
+    id = 'https://drive.google.com/file/d/1hQsua3TkpEmcJD_UWQx8dmNdEZPyxw23/view?usp=drive_link'
     file_prefix = f'{path}/raw/amps/'
     file_name = file_prefix + 'amps.tar.gz'
     if not os.path.isfile(file_name):
